@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* Boton Flotante de WhatsApp */
+.BTNWhats1{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+/* Contenedor del Login */
+.containerdelogin{
+    margin: 5px 10px;
+    background: #005156;
+}
+@media (max-width: 480px){
+    .padaresplog{
+        margin: 100px 0px;
+    }
+}
+
+/* Contenedor de lo que tiene el Login, Img de logo empresa y los botones*/
+.login{
+    border: 4px solid #1DA1F2;
+    border-radius: 20px;
+    margin: 40px 120px;
+    background: white;
+}
+.imglogo{
+    text-align: center;
+    margin: 20px;
+}
+
+.imgloglogin{
+    width: 40%;
+    height: auto;
+}
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .padaresplog{
+        margin: 70px 0px;
+    }
+    .imgloglogin{
+        width: 90%;
+    }
+}
+
+.elije{
+    text-align: center;
+}
+
+.elejido{
+    padding: 5px 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #D9D9D9;
+    margin: 0px 10px 0px 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+}
+.elejido:hover{
+    background: #1DA1F2;
+    cursor: pointer;
+}
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .elejido{
+        margin: 10px;
+    }
+}
+
+/* Los input, el de checkbox y el botón de inicio de sesión  */
+.datosdeL{
+    border-radius: 20px;
+    padding: 10px 150px;
+    border: 3px solid #ADA6A6;
+    box-shadow: 0 0 20px #25D366;
+}
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .datosdeL{
+        padding: 10px 80px;
+    }
+}
+
+.recordar{
+    text-align: center;
+    font-size: 20px;
+}
+input[type="checkbox"] + label {
+    font-weight: bold;
+    line-height: 3em;
+    color: rgb(94, 93, 93);
+}
+input[type="checkbox"]:checked + label {
+    color: #25D366;
+}
+
+.sesion{
+    text-align: center;
+}
+.urlbOOL{
+    font-size: clamp(16px, 5vw, 28px);
+    text-decoration: none;
+}
+
+.boton{
+    padding: 5px 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 3px solid #FF0000;
+    color: #FF0000;
+    margin: 10px;
+}
+.boton:hover{
+    background: #FF0000;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .boton{
+        margin: 25px 0px;
+    }
+}
+
+/* Las redes sociales */
+.redes{
+    text-align: center;
+    margin: 10px;
+}
+
+.registro{
+    text-align: right;
+    margin: 5px 20px 5px 0px;
+}
+.enlace{
+    text-decoration: none;
+    color: #FF0000;
+}
+
+@media only screen and (max-width: 480px) {
+    .neutro{
+        margin-top: -11%;
+    }
+    .containerdelogin{
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+    }
+    .login{
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .imgloglogin{
+        width: 100%;
+        height: auto;
+    }
+
+    .elejido{
+        padding: 5px 25px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .datosdeL{
+        padding: 10px 5px;
+    }
+
+    .boton{
+        padding: 5px 25px;
+        font-size: 16px;
+        margin: 25px 0px;
+    }
+}

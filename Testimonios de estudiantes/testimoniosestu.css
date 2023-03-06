@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Boton WhatsApp */
+
+.botonwasapacole {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+
+/* Borde negro y metodología */
+
+.titulodeT_E {
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.metodeT_E {
+    padding: 20px;
+    border: solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.metodeT_E:hover {
+    border: none;
+    background-color: #25D366;
+    color: white;
+}
+
+.contdemetodeT_E {
+    margin: 30px;
+}
+
+.cuadrodemeto {
+    margin: 30px;
+}
+
+.meto1deT_E {
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.meto1deT_E:hover {
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+.img1demeto1deT_E {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 125px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.meto2deT_E {
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.meto2deT_E:hover {
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+}
+
+.img2demeto2deT_E {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.meto3deT_E {
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.meto3deT_E:hover {
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+}
+
+.img3demeto3deT_E {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.letrasdemetodeT_E {
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* Borde negro de todos */
+
+.titulosdeT_E {
+    width: 100%;
+    height: 80px;
+    color: white;
+    background: #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Carrusel de las cartas de los comentarios y de los vidéos */
+
+.palostetimonios {
+    text-align: center;
+    width: 100%;
+}
+
+.videodeTdeT_E {
+    width: 70%;
+    height: 500px;
+    margin: 15px 0px;
+}
+
+
+/* Los botones */
+
+.botonespaT_E {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.botonesT_Emrd {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.botonesT_Emrd:hover {
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+
+/* Para la frase y el icono que va adentro */
+
+.whatsT_Ermrd {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Poppins';
+    margin-left: 48%;
+}
+
+
+/* Envio de comentarios, imagen y lo de P.frecuente */
+
+.finalT_Ermrd {
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 60%;
+}
+
+.imgT_Ermrd {
+    margin: auto;
+    display: block;
+    position:absolute;
+    left: 20cm;
+    width: 500px;
+    height: 330px;
+    margin-top: 2.3%;
+}
+
+.formudeT_Ermrd {
+    background: linear-gradient(#005156, #005156);
+    width: 115%;
+}
+
+.PregfredeT_E {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.preendeT_E {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+    animation-name: letra;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    background: #1DA1F2;
+}
+
+.buttonT_Ermrd{
+    width: 98%;
+}
+
+@media screen and (max-width: 480px) {
+    .pacelldetestEs{
+        margin: 200px 0px;
+    }
+    .metodeT_E {
+        width: 80%;
+    }
+    .contdemetodeT_E {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        margin: 20px 0px;
+    }
+    .img1demeto1deT_E, .img2demeto2deT_E, .img3demeto3deT_E{
+        margin-top: -3%;
+    }
+    .img1demeto1deT_E{
+        margin-left: 36%;
+    }
+    .img2demeto2deT_E{
+        margin-left: 31%;
+    }
+    .img3demeto3deT_E{
+        margin-left: 40%;
+    }
+    .finalT_Ermrd {
+        width: 88%;
+        margin-left: 0;
+    }
+    .PregfredeT_E {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .videodeTdeT_E {
+        margin: 20px;
+        width: 300px;
+        height: 200px;
+    }
+    .imgT_Ermrd {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .pacelldetestEs{
+        margin: 220px 0px;
+    }
+    .contdemetodeT_E {
+        width: 70%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        min-width: 75%;
+        margin: 20px 0px;
+    }
+    .img1demeto1deT_E, .img2demeto2deT_E, .img3demeto3deT_E{
+        margin-top: -3%;
+        width: 18%;
+    }
+    .img1demeto1deT_E{
+        margin-left: 56%;
+    }
+    .img2demeto2deT_E{
+        margin-left: 53%;
+    }
+    .img3demeto3deT_E{
+        margin-left: 59%;
+    }
+    .videodeTdeT_E {
+        margin: 10px 0px;
+        width: 80%;
+    }
+    .finalT_Ermrd {
+        width: 100%;
+        margin-left: 0;
+    }
+    .imgT_Ermrd{
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .formudeT_Ermrd{
+        width: 110%;
+        margin-left: 66%;
+    }
+}

@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    position: relative;
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Boton WhatsApp */
+.botonwasapacole{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+/* Encabezado */
+.logormrdcole{
+    width: 350px;
+    height: 130px;
+    padding:  0px 3px;
+    margin-left: -11.3%;
+    border-top: -10px;
+    z-index: 1;
+}
+
+/* Borde negro y imágen */
+.titulodeTyP{
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.imgdeTyP{
+    width: 100%;
+}
+.imghorizontaldeTyP{
+    border-radius: 20px;
+}
+
+/* Sellos de las uni y botón de asesor */
+.titudeunis2{
+    margin: 0px 0px 0px 90px;
+}
+
+.unipublic1{
+    padding: 30px;
+    margin: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.unipublic1 .unipublic11:hover{
+    width: 240px;
+    height: 170px;
+}
+.unipublic1 .unipublic22:hover{
+    width: 170px;
+    height: 170px;
+}
+
+.unipriv2{
+    padding: 30px;
+    margin:  0px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.unipriv2 .unipriv2_11:hover{
+    width: 170px;
+    height: 170px;
+
+}
+.unipriv2 .unipriv2_22:hover{
+    width: 240px;
+    height: 170px;
+}
+
+/* La parte de texto de tesis y el boton */
+.containerdetesis{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.detesis2rm h1{
+    font-size: 70px;
+}
+.detesis2rm h2{
+    font-size: 45px;
+}
+
+.detesis3rmrd{
+    width: 700px;
+    margin-left: -20%;
+}
+
+.deotrocolorT{
+    background: #7B8C9C;
+    color: #fff;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.botonrtesis{
+    width: 100%;
+    text-align: center;
+
+}
+.botonrtesis a {
+    text-decoration: none;
+    background: #005156;
+    color: white;
+    padding: 15px 60px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.botonrtesis a:hover{
+    color: #005156;
+    background: white;
+    border: 2px solid #005156;
+}
+
+/* Programas */
+.containerpaTyP{
+    margin:  0px 3%;
+}
+.paracentrar2deTyp{
+    text-align: center;
+}
+.estodecelestedeTyp{
+    background: #1DA1F2;
+    color: #fff;
+}
+.estorojodeTyp{
+    background: #FF0000;
+    color: #fff;
+}
+.estodeverdedeTyp{
+    background: #25D366;
+    color: #fff;
+}
+
+/* Botones que siempre van */
+.botonesdeTyp{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -60px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.botonesdeTyP1rmrd{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.botonesdeTyP1rmrd:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+.laimgdeP{
+    text-align: center;
+}
+.imgdeP2{
+    border-radius: 120px;
+    margin: 50px;
+}
+
+.paradarespaciodelpie{
+    margin: 250px;
+}
+
+/* Para horarios */
+.containerpaProyec{
+    margin: 20px 50px 0px 50px;
+}
+.paracentrariconenP{
+    text-align: center;
+    
+}
+.moddeP:hover{
+    width: 200px;
+    height: 200px;
+}
+
+/* Carrusel de testimonios */
+.testideTyP{
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+.subtidetestideTyP{
+    margin: 0px 250px 0px 250px;
+    background: #D9D9D9;
+    padding: 15px 0px;
+    top: -220px;
+}
+
+.videodeTdeTyP{
+    width: 70%;
+    height: 450px;
+}
+
+/* para lo del icono del wasap */
+
+.whatsdeFRAdeTyP{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Poppins';
+    margin-left: 48%;
+}
+
+/* Envio de comentarios, imagen y lo de P.frecuente */
+.finaldecomdeTyP{
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 60%;
+    position: relative;
+}
+
+.imgdecomdeTyP{
+    margin: auto;
+    display: block;
+    position:absolute;
+    left: 11cm;
+    width: 500px;
+    height: 360px;
+    margin-top: 3.1%;
+}
+
+.formulariodeTyP {
+    background: linear-gradient(#005156, #005156);
+    
+}
+
+.prefredeTyP{
+    width: 80%;
+    margin: 0 auto;
+}
+.pregendeTyP {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+
+    animation-name: letra;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    background: #1DA1F2;
+}
+.tesis{
+    font-size: 50px;
+}
+.tesis1{
+    font-size: 20px;
+}
+.tit_tesis{
+    font-size: 30px;
+}
+.buttondecomdeTyP{
+    width: 350px;
+}
+@media screen and (min-width: 481px) and (max-width: 959px){
+    .pacelldetesypro{
+        margin: 220px 0px;
+    }
+    .unipublic1{
+        width: 99%;
+        margin: 0;
+    }
+    .unipriv2{
+        width: 95%;
+        margin-left: -2%;
+    }
+    .containerdetesis{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .detesis2rm{
+        min-width: 100%;
+        text-align: center;
+    }
+    .detesis3rmrd{
+        min-width: 100%;
+        margin-left: 0;
+    }
+    .botonesdeTyp {
+        flex-wrap: wrap;
+    }
+    /* Ajuste de tamaño y posición de los botones */
+    .botonesdeTyP1rmrd{
+        margin-bottom: 15px;
+    }
+    .imghorizontaldeTyP{
+        width: 100%;
+        height: auto;
+    }
+    .paproyectos{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .solcss{
+        min-width: 100%;
+    }
+    .subtidetestideTyP{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .finaldecomdeTyP{
+        width: 100%;
+        margin-left: 0;
+    }
+    .imgdecomdeTyP{
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .formulariodeTyP{
+        width: 110%;
+        margin-left: 66%;
+    }
+}
+@media screen and (max-width:480px){
+    .pacelldetesypro{
+        margin: 200px 0px;
+    }
+    .titulodeTyP{
+        width: 100%;
+        font-size: 20px;
+    }
+    .imgdeTyP{
+        width: 100%;
+        height: 50%;
+        margin-left: 0%;
+    } 
+    .titudeunis2{
+        width: 100%;
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .unipublic1{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .unipublic11{
+        padding: 10px;
+    }
+    .unipublic22{
+        padding: 10px;
+    }
+    .unipriv2{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .unipriv2_11{
+        padding: 10px;
+    }
+    .unipriv2_22{
+        padding: 10px;
+    }
+    .containerdetesis{
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .tesis{
+        font-size: 30px;
+    }
+    .tesis1{
+        font-size: 15px;
+    }
+    .tit_tesis{
+        font-size: 20px;
+    }
+    .botonrtesis p a{ 
+        font-size: 13px;
+        margin-left: 0%;
+        width: 100%;
+    }   
+    .paraespaciodeTyp{
+        width: 100%;
+        font-size: 15px;
+    }
+    .imghorizontaldeTyP{
+        width: 100%;
+        height: 60%;
+    }
+    .imgdecomdeTyP{
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .preguu{
+        width: 100%;
+    }
+    .buttondecomdeTyP{
+        width: 100%;
+    }
+    .pregendeTyP{
+        width: 120%;
+        margin-left:-10% ;
+    }
+    .subtidetestideTyP{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .deotrocolorT{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .detesis2rm{
+        min-width: 100%;
+        text-align: center;
+    }
+    .detesis3rmrd{
+        min-width: 100%;
+        margin-left: 0;
+    }
+    .finaldecomdeTyP{
+        width: 100%;
+        margin-left: 0;
+    }
+    .paracentrar2deTyp{
+        min-width: 100%;
+    }  
+    /* Ajuste de márgenes y posición */
+    .botonesdeTyp {
+        flex-direction: column;
+        margin-bottom: 0;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    /* Ajuste de tamaño y posición de los botones */
+    .botonesdeTyP1rmrd{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .prefredeTyP{
+        width: 65%;
+    }
+}

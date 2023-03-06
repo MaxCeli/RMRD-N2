@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* Boton Flotante de WhatsApp */
+.botonwasapacole{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+/* Borde Negro del Título */
+.titulodeG{
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+}
+/* Metodología */
+.metodeGrmrd{
+    padding: 20px;
+    border:solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.metodeGrmrd:hover{
+    border:none;
+    background-color: #25D366;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .metodeGrmrd{
+        width: 80%;
+    }
+    .pacelldegale{
+        margin: 200px 0px;
+    }
+}
+
+.containerpametodologiadeG{
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+}
+
+.demetodeG1{
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.demetodeG1:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+.imgdemetodeG1{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 160px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.demetodeG2{
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.demetodeG2:hover{
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+}
+.imgdemetodeG2{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.demetodeG3{
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.demetodeG3:hover{
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+}
+.imgdemetodeG3{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 175px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.letrasdemeto{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .pacelldegale{
+        margin: 220px 0px;
+    }
+    .containerpametodologiadeG{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        min-width: 75%;
+        margin: 20px 0px;
+    }
+    .imgdemetodeG1, .imgdemetodeG2, .imgdemetodeG3{
+        margin-top: -3%;
+        width: 18%;
+    }
+    .imgdemetodeG1{
+        margin-left: 56%;
+    }
+    .imgdemetodeG2{
+        margin-left: 53%;
+    }
+    .imgdemetodeG3{
+        margin-left: 59%;
+    }
+}
+/* Para celular */
+@media screen and (max-width: 480px) {
+    .containerpametodologiadeG{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        margin: 20px 0px;
+    }
+    .imgdemetodeG1, .imgdemetodeG2, .imgdemetodeG3{
+        margin-top: -3%;
+    }
+    .imgdemetodeG1{
+        margin-left: 36%;
+    }
+    .imgdemetodeG2{
+        margin-left: 31%;
+    }
+    .imgdemetodeG3{
+        margin-left: 40%;
+    }
+}
+
+/* Los subtítulos que ban en negro, el carrusel de las img y botones que siempre van*/
+.titulosdeG{
+    width: 100%;
+    height: 80px;
+    color: white;
+    background: #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+.pacadeG{
+    width: 60%;
+    height: 500px;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .pacadeG{
+        width: 80%;
+    }
+    .paresponsive{
+        width: 100%;
+    }
+}
+/* Para celular */
+@media (max-width: 480px) {
+    .pacadeG{
+        width: 100%;
+    }
+    .paresponsive{
+        width: 100%;
+    }
+}
+
+.botonespaG{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.botonesGrmrd{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.botonesGrmrd:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .botonespaG{
+        flex-wrap: wrap;
+    }
+    .botonesGrmrd{
+        margin-bottom: 15px;
+    }
+}
+/* Para celular */
+@media only screen and (max-width: 480px) {
+    /* Ajuste de márgenes y posición */
+    .botonespaG {
+        flex-direction: column;
+        margin-bottom: 0;
+        display: grid;
+        place-items: center;
+        width: 100%;
+    }
+    /* Ajuste de tamaño y posición de los botones */
+    .botonesGrmrd {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Para video, el icono de WhatsApp */
+.whatsGrmrd{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Poppins';
+    margin-left: 48%;
+}
+
+/* Envio de comentarios, imagen y lo de P.frecuente */
+.finaldeG{
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 60%;
+}
+
+.imgdeG{
+    margin: auto;
+    display: block;
+    position:absolute;
+    left: 18.5cm;
+    width: 500px;
+    height: 330px;
+    margin-top: 2.3%;
+}
+
+.formulariodeG {
+    background: linear-gradient(#005156, #005156);
+}
+
+.PregfRECdeG{
+    width: 80%;
+    margin: 0 auto;
+}
+.pregfredeG2 {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+
+    animation-name: letra;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    background: #1DA1F2;
+}
+.buttondeG{
+    width: 98%;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .finaldeG {
+        width: 100%;
+        margin-left: 0;
+    }
+    .imgdeG {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .formulariodeG{
+        width: 110%;
+        margin-left: 66%;
+    }
+}
+/* Para celular */
+@media (max-width: 480px) {
+    .finaldeG {
+        width: 100%;
+        margin-left: 0;
+    }
+        
+    .imgdeG {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+        
+    .PregfRECdeG {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

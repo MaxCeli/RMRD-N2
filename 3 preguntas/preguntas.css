@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    font-family: 'Poppins';
+    background-size: 100vw 100vh;
+}
+body, .modalpopup{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalpopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(146, 146, 146, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    top: 0;
+    left: 0;
+    display: flex;
+    animation: modal 2s 0.1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contenido{
+    margin: auto;
+    width: 90%;
+    height: 40%;
+    background: white;
+    border-radius: 10px;
+}
+
+.container{
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    max-height: 550px;
+    margin: auto;
+    background: #005156;
+    box-shadow: 1px 7px 30px rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+    position: relative;
+    border-radius: 30px;
+}
+@media (min-width: 768px) {
+    .container {
+    width: 700px;
+    height: 550px;
+    }
+}
+.container header{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+
+.container label{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #000000;
+    font-size: 40px;
+    cursor: pointer;
+}
+#cerrar{
+    display: none;
+}
+#cerrar + label{
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    z-index: 50;
+    background: darkred;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    cursor:pointer;
+
+    animation: modal 2s 0.1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal{
+    display: none;
+}
+
+@keyframes modal{
+    100%{
+    visibility: visible;
+    opacity: 1;
+    }
+}
+
+.enviado{
+    color: #fff;
+    background-color: #FF0000;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+.enviado:hover{
+    color: #FF0000;
+    background: #fff;
+    border: 2px solid #FF0000;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .enviado {
+        font-size: 20px;
+        padding: 8px 20px;
+        border-radius: 30px;
+        margin-top: -10%;
+    }
+}
+
+.contenido{
+    background-color: #E8DD85;
+    padding: 2px 25px;
+    border-radius: 20px;
+    border: 2px solid #555133;
+    
+    width: 75%;
+    height: 350px;
+}
+
+.form-select{
+    padding: 5px 0px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+    border: 0;
+}
+.form-select:hover{
+    cursor: pointer;
+}
+
+.form-select2{
+    padding: 5px 0px 5px 0px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+    border: 0;
+}
+
+/* Estilos para pantallas grandes (mayores de 768px) */
+.piepagina{
+    display: flex;
+    margin: 0px 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.pie{
+    padding: 20px 20px;
+    color: #fff;
+    background-color: black;
+    clear: left;
+    text-align: right;
+    vertical-align: middle;
+    line-height:25px;
+    border-radius: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icono{
+    display:inline-block;
+    vertical-align:top;
+    padding: 0px 5px;
+}
+
+@media (max-width: 480px) {
+    .container{
+       width: 95%;
+       height: 185%;
+    }
+    .logo{
+       position: static;
+       width: 95%;
+       margin: 7px;
+    }
+    .contenido{
+       position: static;
+       width: 82%;
+       height: 69.5%;
+       
+    }
+    .sinb{
+       width: 15%;
+    }
+     }
+     @media screen and (max-width: 480px) {
+       .enviado{
+           width: 50%;
+           margin: -5%;
+        }
+        .piepagina,.pie{
+           width: 100%;
+           margin-left: 0;
+        }
+   
+     }

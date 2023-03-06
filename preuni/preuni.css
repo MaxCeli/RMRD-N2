@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.imgPreuni{
+    width: 350px;
+    height: 130px;
+    padding:  1px 1rem;
+    margin-left: -10%;
+    border-top: -10px;
+    z-index: 2;
+  }
+
+.BoTNWhats1{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+
+.titulo_p {
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.titulo_p .h2t{
+    padding: 20px;
+}
+.containerpametodologia{
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+}
+.metodología {
+    padding: 15px;
+    border:solid 2px #25D366;
+    font-size: 10px;
+    border-radius: 5px;
+    width: 600px;
+    height:100px;
+}
+.pruebademeto1{
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+  }
+  .pruebademeto1:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+  }
+  .pruebademeto2{
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+  }
+  .pruebademeto2:hover{
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+  }
+  .pruebademeto3{
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+  }
+  .pruebademeto3:hover{
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+  }
+  .letrasdemeto{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+  }
+.img1demeto1{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -20px;
+}
+.img2demeto2{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 130px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -20px;
+}
+.img3demeto3{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 170px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -20px;
+}
+.metodoUpu{
+    padding: 20px;
+    border:solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.metodoUpu:hover{
+    border:none;
+    background-color: #25D366;
+    color: white;
+}
+.metodoUpu p{
+  font-size: 30px;
+}
+
+.vid_1 {
+
+    height: 500px;
+}
+
+.tit_2 {
+    width: 1000px;
+    padding: 50px;
+    text-align:center ;
+    margin: 50px;
+    border: solid 2px #25D366;
+    font-size: 30px;
+}
+.tit_3 {
+    text-align: center;
+    font-size: 30px;
+    color: #FF0000;
+}
+
+.uni_1{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uni_1 .uni_11:hover{
+    width: 125px;
+    height: 125px;
+}
+
+.uni_1 .uni1_22:hover{
+    width: 227px;
+    height: 124px;
+}
+
+.uni_1 .uni2_11:hover{
+    width: 150px;
+    height: 150px;
+}
+.botones-10{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+ }
+ .asac:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+  }
+
+ .asac{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.pa_1{
+  text-align: center;
+  width: 70%;
+  height: auto;
+  border: 4px solid #25D366;
+  margin-top: 6%;
+}
+.pa_1 h3{
+  margin: 15px 30px 10px 30px;
+}
+.pa_2{
+    text-align: center;
+    padding: 50px;
+    color:rgb(29, 160, 242);
+    font-size: clamp(22px, 5vw, 40px);
+}
+.titcur1{
+    width: 500px;
+    border: solid 2px #1DA1F2;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.imgv_p{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.whats11{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Poppins';
+    margin-left: 48%;
+  }
+
+.PregfREC1{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .Preguntas2 {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+    }
+    .formulario {
+      background: linear-gradient(#38363a, #272727, rgb(0, 0, 0));
+    }
+.img3{
+  margin: auto;
+  display: block;
+  position:absolute;
+  left: 20cm;
+  width: 500px;
+  height: 330px;
+  margin-top: 2.3%;
+}
+  .final2{
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 68%;
+}
+
+      /* Para cursos diponibles */
+.cursosd{
+    text-align: center;
+}
+.cursosd h2{
+    margin: 0px 0px 0px 115px;
+}
+
+.fila1materias{
+    text-align: center;
+}
+.paramaterias1{
+    border:2px solid #25D366;
+    padding: 20px;
+    border-radius: 80px;
+}
+.paramaterias1:hover{
+    background: #25D366;
+    text-decoration: none;
+}
+.form-select10{
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+.fila3materias{
+    text-align: center;
+}
+.paramaterias3{
+    border:2px solid #1DA1F2;
+    padding: 20px;
+    border-radius: 80px;
+}
+.paramaterias3:hover{
+    background: #1DA1F2;
+    text-decoration: none;
+}
+
+.fila2materias{
+    text-align: center;
+}
+.paramaterias2{
+    border:2px solid #FF0000;
+    padding: 20px;
+    border-radius: 80px;
+}
+.paramaterias2:hover{
+    background: #FF0000;
+    text-decoration: none;
+}
+
+.cniv{ 
+    font-size: 30px;
+    width: 800px;
+    height: 50px;
+    border: solid 2px #25D366;
+    border-radius: 10px;
+}
+
+.containerUPH{
+    margin: 2% 250px;
+  }
+  .parauph{
+    text-align: center;
+  }
+  .celesteUPH{
+    background: #1DA1F2;
+    color: #fff;
+  }
+  .estoUPH{
+    background: #FF0000;
+    color: #fff;
+  }
+.verdeUPH{
+    background: #25D366;
+    color: #fff;
+  }
+.tit_car{
+    width: 850px;
+    font-size: 35px;
+    border: solid 2px #1DA1F2;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.carreras_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.tmod{
+    height: 50px;
+    text-align: center;
+    background-color: #FF0000;
+    color: white;
+    font-size: 30px;
+}
+.tres{
+    width: 890px;
+    background: #D9D9D9;
+    font-family: 'Poppins';
+    justify-content: center;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+  .PregfREC1rmrd12{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Preguntas2rmrd2 {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 11px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+    animation-name: letra;
+    animation-duration: 7s;
+      animation-iteration-count: infinite;
+      color: #fff;
+      background: #1DA1F2;
+    }
+    .moviUpre:hover{
+      width: 150px;
+      height: 150px;
+    }
+    .ModUPre{
+      justify-content: center;
+      display: flex;
+        width: 40%;
+        font-family: Poppins;
+        margin-left: 31%;
+        text-align: center;
+      }
+      .centrariconUpi{
+        text-align: center;
+        padding: 50px;
+      }
+      .buttonT_Ermrd{
+        width: 350px;
+      }
+
+
+@media screen and (min-width: 481px) and (max-width: 959px){
+  .pacelldepreuni{
+    margin: 70px 0;
+  }
+  .containerpametodologia{
+    width: 70%;
+    margin: 20px auto;
+  }
+  .cuadrodemeto{
+    min-width: 75%;
+    margin: 20px 0px;
+  }
+  .img1demeto1, .img2demeto2, .img3demeto3{
+    margin-top: -3%;
+    width: 18%;
+  }
+  .img1demeto1{
+    margin-left: 56%;
+  }
+  .img2demeto2{
+    margin-left: 53%;
+  }
+  .img3demeto3{
+    margin-left: 59%;
+  }
+  .tit_2{
+    width: 80%;
+    font-size: 29px;
+    margin: 0 auto;
+  }
+  .uni2_11, .uni1_22{
+    width: 80%;
+  }
+  .pa_1{
+    margin-top: 10%;
+  }
+  .tit_car, .cniv{
+    width: 80%;
+    font-size: 26px;
+  }
+  .containerUPH{
+    margin: 0 20px;
+  }
+  .tres{
+    width: 100%;
+  }
+  .img3{
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width:480px){
+  body {
+    overflow-x: hidden;
+  }
+  .pacelldepreuni{
+    margin: 80px 0;
+  }
+  .titulo_p{
+    width: 100%;
+    font-size: 20px; 
+  }
+  .vid_1{
+    width: 320px;
+  }
+  .metodoUpu{
+    width: 80%;
+  }
+  .containerpametodologia{
+    width: 80%;
+    margin: 20px auto;
+  }
+  .cuadrodemeto{
+    margin: 20px 0px;
+  }
+  .img1demeto1, .img2demeto2, .img3demeto3{
+    margin-top: -3%;
+  }
+  .img1demeto1{
+    margin-left: 36%;
+  }
+  .img2demeto2{
+    margin-left: 31%;
+  }
+  .img3demeto3{
+    margin-left: 40%;
+  }
+  .tit_2{
+    width: 80%;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  .uni_1{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .uni2_11{
+    width: 100%;
+    flex-direction: column;
+  }
+  .uni1_22{
+    width: 100%;
+    flex-direction: column;
+  }
+  /* Ajuste de márgenes y posición */
+  .botonesLP1 {
+    flex-direction: column;
+    margin-bottom: 20px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  .botonesLP2{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .parauph h4, .estoUPH1{
+    font-size: 15px;
+  }
+  .titcur1{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  .tit_car{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  .cniv{
+    width: 100%;
+    font-size: 18px;
+    padding: 7px;
+  }
+  .tres{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0%;
+  }
+  .mv-3{
+    width: 100%;
+  }
+  .buttonT_Ermrd{
+    width: 100px;
+    height: 30px;
+  }
+  .containerUPH{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .buttonT_Ermrd{
+    width: 50%;
+  }
+  .pregunta{
+    width: 100%;
+  }
+  .final12{
+    margin-left: 0%;
+  }
+  .carreras_1{
+    width: 100%;
+    flex-direction: column;
+  }
+  .img3{
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  .PregfREC1rmrd12{
+    width: 70%;
+  }
+}

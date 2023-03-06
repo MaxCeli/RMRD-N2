@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.tit_tesP {
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.metodología {
+    padding: 150px;
+    border: solid 2px #25D366;
+    font-size: 10px;
+    border-radius: 5px;
+    width: 600px;
+    height: 100px;
+}
+
+.cuadrodemeto {
+    margin: 30px;
+}
+
+.pruebademeto1 {
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto1:hover {
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+.pruebademeto2 {
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto2:hover {
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+}
+
+.pruebademeto3 {
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto3:hover {
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+}
+
+.letrasdemeto {
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img1demeto1 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 123px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -15px;
+}
+
+.img2demeto2 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -15px;
+}
+
+.img3demeto3 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -15px;
+}
+
+.metodoUpu {
+    padding: 20px;
+    border: solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.metodoUpu:hover {
+    border: none;
+    background-color: #25D366;
+    color: white;
+}
+
+.test_es {
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.letras6 {
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.colXd1 {
+    border: 2px solid #ff0000;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+    font-size: 19px;
+}
+
+.colXd1:hover {
+    color: #ffffff;
+    background: #ff0000;
+    border: 2px solid #ff0000;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.colXd {
+    border: 2px solid #ff0000;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.colXd:hover {
+    color: #ffffff;
+    background: #ff0000;
+    border: 2px solid #ff0000;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.tit3 {
+    color: #1DA1F2;
+}
+
+.PregfREC1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Preguntas2 {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+}
+
+.pie {
+    background-color: rgb(0, 0, 0);
+    height: 360px;
+    margin-top: 70px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.header {
+    display: flex;
+    background-color: #81807C;
+    text-align: center;
+    justify-content: center;
+}
+
+.mensaje {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    margin-left: 180px;
+    text-align: justify;
+}
+
+.mensaje2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: justify;
+}
+
+.seccion {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-family: 'Poppins';
+}
+
+.seccion div {
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion {
+    color: #f1f1f1;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+.derechos1 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Poppins';
+    color: #f1f1f1;
+}
+
+.botones1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -60px;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.asac {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.asac:hover {
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+hr {
+    color: #f1f1f1;
+}
+
+.row2 {
+    width: 490px;
+    margin-top: -150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nivelacionTexto {
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.BTNWhats1 {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+/* Envio de comentarios, imagen y lo de P.frecuente */
+
+.PregfREC1rmrd12 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Preguntas2rmrd2 {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+    animation-name: letra;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    background: #1DA1F2;
+}
+
+.formulariormrd24 {
+    background: linear-gradient(#005156, #005156, #005156);
+}
+
+.final2rmrd {
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 60%;
+}
+
+.img3rmrd {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 18.5cm;
+    width: 500px;
+    height: 330px;
+    margin-top: 2.3%;
+}
+
+.buttonT_Ermrd {
+    width: 98%;
+}
+
+@media screen and (max-width: 480px) {
+    .pacelldetpa {
+        margin: 80px 0px;
+    }
+
+    .metodoUpu {
+        padding: 10px;
+        border: solid 2px #25D366;
+        border-radius: 5px;
+        width: 80%;
+        margin-bottom: 5px;
+    }
+
+    .colXd {
+        border: 2px solid #ff0000;
+        height: 90px;
+        margin-top: 5px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+    }
+
+    .final2rmrd {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .img3rmrd {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .PregfREC1rmrd12 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .vidtes_1 {
+        margin: 20px;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .pacelldetpa {
+        margin: 80px 0px;
+    }
+    .containerpametodologia{
+        width: 70%;
+        margin: 0px auto;
+    }
+    .cuadrodemeto{
+        min-width: 75%;
+        margin: 20px 0px;
+    }
+    .img1demeto1, .img2demeto2, .img3demeto3{
+        margin-top: -3%;
+        width: 18%;
+    }
+    .img1demeto1{
+        margin-left: 56%;
+    }
+    .img2demeto2{
+        margin-left: 53%;
+    }
+    .img3demeto3{
+        margin-left: 59%;
+    }
+    .tit3 h2{
+        font-size: 24px;
+    }
+    .final2rmrd {
+        width: 100%;
+        margin-left: 0;
+    }
+    .img3rmrd {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .formulariormrd24{
+        width: 110%;
+        margin-left: 66%;
+    }
+}

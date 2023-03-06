@@ -1,0 +1,930 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Boton Flotante de WhatsApp */
+.botonwasapacole {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+#letrasQS {
+  font-family: 'Poppins';
+  color: rgb(29, 160, 242);
+  font-size: 1.1rem;
+}
+
+.imgEncQS {
+  width: 350px;
+  height: 130px;
+  padding: 1px 1rem;
+  margin-left: -1.8%;
+  z-index: 1;
+  border-radius: 0px;
+}
+
+.h3 {
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+.tit_doc {
+  background-color: black;
+  color: white;
+  width: 397px;
+
+  opacity: 0.7;
+}
+
+.textq_s {
+  font-size: 30px;
+  width: 1250px;
+  border: solid 2px #1DA1F2;
+  border-radius: 10px;
+}
+
+.tit_docentes {
+  font-size: 30px;
+  border-radius: 10px;
+  width: 900PX;
+  border: solid 2px #25D366;
+}
+
+.textq_e {
+  font-size: 30px;
+  width: 900px;
+  border: solid 2px #FF0000;
+  border-radius: 10px;
+}
+
+.tit_mv {
+  margin-left: 650px;
+}
+
+.BooTNWhats1 {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.titulo {
+  background: #000000;
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.container {
+  width: 300%;
+  max-width: 850px;
+  padding-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+}
+
+.cardQS .d-block-w-100 {
+  width: 250px;
+  height: 350px;
+
+}
+
+.buttons {
+  margin-top: -18px;
+  min-width: 480px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.buttons a {
+  flex-wrap: wrap;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  background: #4d4d4d;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+  transition: all 1s;
+  border-radius: 50%;
+  padding: 9px;
+
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+#centrar {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.containerpametodologia {
+  margin: 20px 100px 20px 100px;
+  text-align: center;
+}
+
+.pruebademeto1 {
+  background: #1DA1F2;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #1DA1F2;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto1:hover {
+  color: #1DA1F2;
+  background: #ffffff;
+  border: 2px solid #1DA1F2;
+}
+
+.pruebademeto2 {
+  background: #ff0000;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #ff0000;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto2:hover {
+  color: #ff0000;
+  background: #ffffff;
+  border: 2px solid #ff0000;
+}
+
+.pruebademeto3 {
+  background: #25D366;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #25D366;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto3:hover {
+  color: #25D366;
+  background: #ffffff;
+  border: 2px solid #25D366;
+}
+
+.letrasdemeto {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.img1demeto1 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -20px;
+}
+
+.img2demeto2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -20px;
+}
+
+.img3demeto3 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -20px;
+}
+
+.metodoUpu {
+  padding: 20px;
+  border: solid 2px #25D366;
+  border-radius: 5px;
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+  font-size: 29px;
+}
+
+.metodoUpu:hover {
+  border: none;
+  background-color: #25D366;
+  color: white;
+}
+
+.card2 .imgvert {
+  padding: 50px;
+  position: relative;
+  height: 100%;
+}
+
+.card .flecha {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_2 .card-header {
+  font-size: 15px;
+}
+
+.metodología {
+  padding: 20px;
+  border: solid 2px #25D366;
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+
+
+}
+
+.metodología:hover {
+  border: none;
+  background-color: #25D366;
+  color: white;
+}
+
+.card2 {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+
+}
+
+.card2 .card-text {
+  font-size: 15px;
+}
+
+.inst {
+  padding: 40px;
+  margin: 20px;
+  font-family: poppins;
+  font-size: 20px;
+  border: solid 1px #d9d9d9;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  color: white;
+
+}
+
+.card .img1 {
+  width: 150px;
+  padding: 20px;
+
+}
+
+.tit2 {
+  padding: 50px;
+  font-family: poppins;
+  color: red;
+  font-stretch: 10px;
+}
+
+.boton_1 {
+  display: flex;
+  width: 100%;
+}
+
+.bontons {
+  margin: 0 auto;
+}
+
+.boton_1 .botons {
+  padding: 10px;
+}
+
+.boton_1 .b1 {
+  padding: 10px;
+  width: 300px;
+  background-color: #1DA1F2;
+  color: rgb(228, 227, 227);
+  font-size: 20px;
+  border: solid 1px #1DA1F2;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.b1:hover {
+  background-color: white;
+  color: #1DA1F2;
+}
+
+.boton_1 .b2 {
+  padding: 10px;
+  width: 300px;
+  background-color: #FF0000;
+  color: rgb(228, 227, 227);
+  font-size: 20px;
+  border: solid 1px #FF0000;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.b2:hover {
+  background-color: white;
+  color: #FF0000;
+}
+
+.boton_1 .b3 {
+  padding: 10px;
+  width: 300px;
+  background-color: #25D366;
+  color: rgb(228, 227, 227);
+  font-size: 20px;
+  border: solid 1px #25D366;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.b3:hover {
+  background-color: white;
+  color: #25D366;
+}
+
+.img_2 {
+  float: right;
+  width: 20%;
+}
+
+.cole_1 {
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.uni_12 {
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.uni_1 {
+  padding: 30px;
+  margin: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.uni_1 .uni_11:hover {
+  width: 125px;
+  height: 125px;
+
+}
+
+.uni_1 .uni1_22:hover {
+  width: 227px;
+  height: 124px;
+}
+
+.uni_1 .uni2_11:hover {
+  width: 150px;
+  height: 150px;
+
+}
+
+.filadecole1 {
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filadecole1 .cole11:hover {
+  width: 240px;
+  height: 170px;
+}
+
+.filadecole1 .cole22:hover {
+  width: 170px;
+  height: 170px;
+}
+
+.filacole2 {
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filacole2 .cole2_11:hover {
+  width: 170px;
+  height: 170px;
+}
+
+.filacole2 .cole2_11casoespe:hover {
+  width: 150;
+  height: 200px;
+}
+
+.filacole2 .cole2_22:hover {
+  width: 240px;
+  height: 170px;
+}
+
+.imgc:hover {
+  width: 750px;
+  height: 750px;
+}
+
+.tit3 {
+  padding: 50px;
+  font-family: poppins;
+  color: rgb(29, 160, 242);
+}
+
+.iconos_1 {
+  margin-top: -40px;
+}
+
+.wats11 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: 'Poppins';
+  margin-left: 48%;
+}
+
+.formp2_2 {
+  padding: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fomrp1_1 {
+
+  background: linear-gradient(#005156, #005156);
+  width: 400px;
+  height: 420px;
+  border-radius: 15px;
+
+}
+
+.titc {
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.img3_33 {
+  width: 400px;
+  height: 400px;
+  margin-bottom: -10 px;
+}
+
+.formp2_2 {
+  margin-bottom: -215px;
+}
+
+.formp2_2 .h4_1 {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.formp2_2 .in_1 {
+  margin: 10px;
+  width: 300px;
+}
+
+.formp2_2 .in_2 {
+  margin: 10px;
+  width: 300px;
+  height: 80px;
+}
+
+.formp2_2 .but_fo {
+  font-family: poppins;
+  width: 70px;
+  margin: 10px;
+  padding: 3px;
+}
+
+.PregfREC1 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.PregfREC1rmrd12 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Preguntas2rmrd2 {
+  text-align: center;
+  background-color: #25D366;
+  border-radius: 11px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+  animation-name: letra;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  color: #fff;
+  background: #1DA1F2;
+}
+
+.carrus .carousel-control-prev {
+  color: black;
+}
+
+.img3 {
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 18.5cm;
+  width: 500px;
+  height: 330px;
+  margin-top: 2.3%;
+}
+
+.img3rmrd {
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 20cm;
+  width: 600px;
+  height: 360px;
+}
+
+.seg {
+  font-size: 20px;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  margin-bottom: 1px;
+  color: #25D366;
+}
+
+.desa {
+  font-size: 20px;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  margin-bottom: 1px;
+  color: #ff0000;
+}
+
+.vacios {
+  font-size: 20px;
+  justify-content: space-evenly;
+  font-family: Poppins;
+  margin-bottom: 1px;
+  color: #1DA1F2;
+}
+
+.buttonT_Ermrd {
+  width: 350px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 959px) {
+  .pacelldeqsomos {
+    margin: 220px 0px;
+  }
+
+  .textq_e {
+    font-size: 20px;
+    width: 99%;
+    margin-left: 0%;
+  }
+
+  .textq_s {
+    margin-left: 0;
+    font-size: 20px;
+    width: 99%;
+  }
+
+  .tit_docentes {
+    font-size: 20px;
+    width: 99%;
+    margin-left: 0%;
+  }
+
+  .containerpametodologia {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .cuadrodemeto {
+    min-width: 75%;
+    margin: 20px 0px;
+  }
+
+  .img1demeto1,
+  .img2demeto2,
+  .img3demeto3 {
+    margin-top: -3%;
+    width: 18%;
+  }
+
+  .img1demeto1 {
+    margin-left: 56%;
+  }
+
+  .img2demeto2 {
+    margin-left: 53%;
+  }
+
+  .img3demeto3 {
+    margin-left: 59%;
+  }
+
+  .acor_mv {
+    margin-left: 0%;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .tit_mv {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+
+  .uni_1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .uni2_11,
+  .uni1_22 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .img3 {
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .pacelldeqsomos {
+    margin: 200px 0px;
+  }
+
+  .titulo {
+    width: 100%;
+  }
+
+  .textq_e {
+    font-size: 20px;
+    width: 99%;
+    margin-left: 0%;
+  }
+
+  .textq_s {
+    margin-left: 0;
+    font-size: 20px;
+    width: 99%;
+  }
+
+  .tit_docentes {
+    font-size: 20px;
+    width: 99%;
+    margin-left: 0%;
+  }
+
+  .foto_doc {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .metodoUpu {
+    width: 80%;
+  }
+
+  .acor_mv {
+    margin-left: 0%;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .tit_mv {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+
+  .tit2 {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .acord_1 {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 0%;
+  }
+
+  .containerpametodologia {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .cuadrodemeto {
+    margin: 20px 0px;
+  }
+
+  .img1demeto1,
+  .img2demeto2,
+  .img3demeto3 {
+    margin-top: -3%;
+  }
+
+  .img1demeto1 {
+    margin-left: 36%;
+  }
+
+  .img2demeto2 {
+    margin-left: 31%;
+  }
+
+  .img3demeto3 {
+    margin-left: 40%;
+  }
+
+  .head1 {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .seg {
+    font-size: 20px;
+  }
+
+  .desa {
+    font-size: 20px;
+  }
+
+  .vacios {
+    font-size: 20px;
+  }
+
+  .boton_1 {
+    margin-left: 10%;
+    width: 10%;
+    flex-direction: column;
+  }
+
+  .img_2 {
+    padding: 30%;
+    width: 790%;
+  }
+
+  .cole_1 {
+    font-size: 30px;
+    margin-left: 0%;
+    padding: 10%;
+  }
+
+  .filadecole1 {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .cole22,
+  .cole11 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .uni_12 {
+    font-size: 30px;
+    margin-left: 10%;
+  }
+
+  .uni_1 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .uni2_11,
+  .uni1_22 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .cole_1 {
+    width: 10%;
+  }
+
+  .exp {
+    width: 90%;
+  }
+
+  .contletras {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .formpre {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .img3 {
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+  .preguuu {
+    width: 100%;
+  }
+
+  .Preguntas2rmrd2 {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .PregfREC1rmrd12 {
+    width: 70%;
+  }
+
+  .buttonT_Ermrd {
+    width: 100%;
+  }
+}

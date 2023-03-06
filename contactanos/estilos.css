@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Boton Flotante de WhatsApp */
+.botonwasapacole{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #25D366;
+  color:#fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+/* formulario y cuadros de informacion */
+.card {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.cardxd77 {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  text-align: center;
+  font-family: 'Poppins';
+}
+/* Contactanos */
+.contxd1 {
+  background: #000000;
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+/* boton de formulario enviar */
+.button99xd {
+  margin: auto;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  width: 70px;
+  border: none;
+  font-family: 'Poppins';
+  background-color: white;
+  color: #1DA1F2;
+  border: 2px solid #1DA1F2;
+}
+
+.button99xd {
+  transition-duration: 0.4s;
+}
+
+.button99xd:hover {
+  background-color: #25D366;
+  color: white;
+}
+/* estilos pregunta frecuente y letras celestes */
+.Pregunxd77 {
+  text-align: center;
+  background-color: #25D366;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+}
+
+.finalxd77 {
+  text-align: center;
+  font-family: 'Poppins';
+}
+/* Imagenes de los cuadros de informacion */
+.xd77 {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.map77xd {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.mail77xd {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.hoursxd {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.direccion {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  display: block;
+  left: 500px;
+}
+/* boton de principio metodologia */
+.button1xd77{
+  padding: 20px;
+  border:solid 2px #25D366;
+  border-radius: 5px;
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.button1xd77:hover{
+  border:none;
+  background-color: #25D366;
+  color: white;
+}
+/* Imagen derecha de formulario */
+.img3xd77 {
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 18cm;
+  width: 500px;
+  height: 330px;
+  margin-top: 1.2%;
+}
+/* botones de mas informacion */
+.button2xd77 {
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  font-family: 'Poppins';
+  background-color: #1DA1F2;
+  color: white;
+  border: 2px solid #1DA1F2;
+}
+
+.button2xd77 {
+  transition-duration: 0.4s;
+}
+
+.button2xd77:hover {
+  background-color: #25D366;
+  color: white;
+  border-color: #25D366;
+}
+
+.button3xd77 {
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  font-family: 'Poppins';
+  background-color: #1DA1F2;
+  color: white;
+  border: 2px solid #1DA1F2;
+}
+
+.button3xd77 {
+  transition-duration: 0.4s;
+}
+
+.button3xd77:hover {
+  background-color: #25D366;
+  color: white;
+  border-color: #25D366;
+}
+
+.button4xd77 {
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  font-family: 'Poppins';
+  background-color: #1DA1F2;
+  color: white;
+  border: 2px solid #1DA1F2;
+}
+
+.button4xd77 {
+  transition-duration: 0.4s;
+}
+
+.button4xd77:hover {
+  background-color: #25D366;
+  color: white;
+  border-color: #25D366;
+}
+
+.button5xd77 {
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: none;
+  font-family: 'Poppins';
+  background-color: #1DA1F2;
+  color: white;
+  border: 2px solid #1DA1F2;
+}
+
+.button5xd77 {
+  transition-duration: 0.4s;
+}
+
+.button5xd77:hover {
+  background-color: #25D366;
+  color: white;
+  border-color: #25D366;
+}
+/* Metodologia */
+.contactosxd77 {
+  margin: 20px 100px 20px 100px;
+  text-align: center;
+}
+
+.contactoprueba1 {
+  background: #1DA1F2;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #1DA1F2;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba1:hover {
+  color: #25D366;
+  background: #ffffff;
+  border: 2px solid #25D366;
+}
+
+.contactoprueba2 {
+  background: #ff0000;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #ff0000;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba2:hover {
+  color: #ff0000;
+  background: #ffffff;
+  border: 2px solid #ff0000;
+}
+
+.contactoprueba3 {
+  background: #25D366;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #25D366;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba3:hover {
+  color: #25D366;
+  background: #ffffff;
+  border: 2px solid #25D366;
+}
+
+.letrasdemeto {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+}
+.img1demeto1{
+  display: flex;
+  justify-content: space-between ;
+  justify-items: center;
+  margin-left: 150px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -20px;
+}
+.img2demeto2{
+  display: flex;
+  justify-content: space-between ;
+  justify-items: center;
+  margin-left: 130px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -20px;
+}
+.img3demeto3{
+  display: flex;
+  justify-content: space-between ;
+  justify-items: center;
+  margin-left: 170px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -20px;
+}
+.contactoimgmeto1 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 117px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.contactoimgmeto2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.contactoimgmeto3 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 135px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+/* Preguntas */
+.accordion{
+  font-family: Poppins;
+}
+/* Formulario */
+.formulariormrd24 {
+  background: linear-gradient(#005156, #005156);
+}
+.final2rmrd76 {
+  margin-left: 10%;
+  font-family: 'Poppins';
+  width: 70%;
+}
+.mb-3{
+  margin-left: 10px;
+}
+.buttonrmrd {
+  border: 0;
+  padding: 5px 10px;
+}
+.formulario{
+  border-radius: 5px;
+  height: 350px;
+}
+.PregfRECLP {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.PreguntULP2 {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+  animation-name: letra;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  color: #fff;
+  background: #1DA1F2;
+}
+
+@keyframes letra {
+  0% {
+                      background-color: none;
+  }
+
+  50% {
+                      background-color: #1DA1F2;
+  }
+
+  75% {
+                      background-color: #ff0000;
+  }
+
+  100% {
+                      background-color: #25D366;
+  }
+}
+.formulario77{
+  background: linear-gradient(#005156, #005156);
+}
+.button{
+  width: 98%;
+}
+
+@media (max-width: 480px) {
+  .pacelldecont{
+    margin: 70px 0px;
+  }
+  .final2rmrd76 {
+  width: 100%;
+  margin-left:0;
+  }
+  .img3xd77 {
+  position: static;
+  width: 100%;
+  margin: 20px auto;
+  }
+  .button1xd77{
+      width: 80%;
+      height: 90%;
+  }
+  .PregfRECUPu2{
+      width: 70%;
+      margin: 0 auto;
+  }
+  .cardcontac{
+    min-width: 100%;
+    height: auto;
+  }
+  .cuadroscontac{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .contactosxd77{
+      width: 80%;
+      margin: 20px auto;
+  }
+  .cuadrodemeto{
+      margin: 20px 0px;
+  }
+  .contactoimgmeto1,.contactoimgmeto2,.contactoimgmeto3{
+      margin-top: -3%;
+  }
+  .contactoimgmeto1{
+      margin-left: 36%;
+  }
+  .contactoimgmeto2{
+      margin-left: 31%;
+  }
+  .contactoimgmeto3{
+      margin-left: 40%;
+  }
+  
+}
+@media (min-width: 481px) and (max-width: 1050px){
+  .pacelldecont{
+    margin: 120px 0px;
+  }
+  .contactosxd77{
+      margin: 20px auto;
+      width: 70%;
+  }
+  .cuadrodemeto{
+      margin: 20px 0px;
+      min-width: 75%;
+  }
+  .contactoimgmeto1,.contactoimgmeto2,.contactoimgmeto3{
+      margin-top: -3%;
+      width: 18%;
+  }
+  .contactoimgmeto1{
+      margin-left: 56%;
+  }
+  .contactoimgmeto2{
+      margin-left: 53%;
+  }
+  .contactoimgmeto3{
+      margin-left: 59%;
+  }
+  .final2rmrd76 {
+      width: 110%;
+      margin-left:-5%;
+      
+  }
+  .img3xd77 {
+      position: static;
+      width: 50%;
+      margin: 20px auto;
+      
+  }
+  .formulario77{
+      width: 120%;
+      margin-left: 66%;
+  }
+  .PregfRECUPu2{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cuadroscontac{
+    width: 100%;
+  }
+  .cardcontac{
+    min-width: 50%;
+  }
+  
+}

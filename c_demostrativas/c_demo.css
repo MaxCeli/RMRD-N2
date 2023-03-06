@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+}
+
+.c_demo {
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.vid1_1 {
+    width: 800px;
+}
+
+.demo {
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.demo .bot_cd {
+    margin: 15px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    text-decoration-line: none;
+
+}
+
+.demo .linkvi {
+    text-decoration: none;
+    color: white;
+}
+
+.botones10 {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.asac:hover {
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+.asac {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 31px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.cursosd {
+    text-align: center;
+}
+
+.cursosd h2 {
+    margin: 0px 0px 0px 115px;
+}
+
+.fila1materias {
+    text-align: center;
+}
+
+.paramaterias1 {
+    border: 2px solid #25D366;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.paramaterias1:hover {
+    background: #25D366;
+    text-decoration: none;
+}
+
+.form-select10 {
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fila3materias {
+    text-align: center;
+}
+
+.paramaterias3 {
+    border: 2px solid #1DA1F2;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.paramaterias3:hover {
+    background: #1DA1F2;
+    text-decoration: none;
+}
+
+.fila2materias {
+    text-align: center;
+}
+
+.paramaterias2 {
+    border: 2px solid #FF0000;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+.paramaterias2:hover {
+    background: #FF0000;
+    text-decoration: none;
+}
+
+.titesc_dem {
+    width: 400px;
+    border: solid 3px#25D366;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.titcol_dem {
+    width: 400px;
+    border: solid 3px #1DA1F2;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.tituni_dem {
+    width: 400px;
+    border: solid 3px #FF0000;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.videsc {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.videsc:hover {
+    font-size: 25px;
+}
+
+.imgDemo {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 18cm;
+    width: 500px;
+    height: 330px;
+    margin-top: 1.2%;
+}
+
+.espacioRar {
+    color: #1DA1F2;
+    justify-content: space-between;
+    justify-items: center;
+    position: relative;
+    margin-left: 40px;
+    display: flex;
+}
+
+.imgredemo {
+    width: 350px;
+    height: 130px;
+    margin-left: 12.9%;
+    z-index: 1;
+    margin-top: -4%;
+    justify-content: end;
+}
+
+.headerrecu {
+    background: #81807C;
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    height: 70px;
+    position: relative;
+}
+
+.frasexd {
+    text-align: center;
+    width: 70%;
+    height: 160px;
+    border: 4px solid #25D366;
+    margin: 0px 0px 0px 238px;
+    font-family: 'Poppins';
+}
+
+/* Metodoligía */
+.metodologíadecole {
+    padding: 20px;
+    border: solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.metodologíadecole:hover {
+    border: none;
+    background-color: #25D366;
+    color: white;
+}
+
+.containerpametodologia {
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+}
+
+.pruebademeto1 {
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto1:hover {
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+.pruebademeto2 {
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto2:hover {
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+}
+
+.pruebademeto3 {
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.pruebademeto3:hover {
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+}
+
+.letrasdemeto {
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img1demeto1 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 120px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.img2demeto2 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.img3demeto3 {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 138px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+
+.formulario77 {
+    background: linear-gradient(#005156, #005156);
+}
+
+.final223 {
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 60%;
+}
+
+.PregfRECUPu2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.encuser {
+    list-style: none;
+    display: inline-flex;
+    padding: 30px;
+}
+
+.encuser ul li {
+    display: inline-flex;
+    position: relative;
+
+}
+
+.encuser ul li a {
+    padding: 1rem;
+    transition: all 0.4 linear;
+    border-radius: 5px;
+    color: #000000;
+    justify-content: flex-end;
+    display: absolute;
+    position: relative;
+}
+
+.solopael {
+    margin-top: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF0000;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 17px;
+    border-color: #FF0000;
+}
+
+.solopael:hover {
+    color: #FF0000;
+    background: white;
+    border: 2px solid #FF0000;
+}
+
+.botones3max {
+    margin-top: 15px;
+    margin-right: 200px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #25D366;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 17px;
+    border-color: #25D366;
+    margin-left: 13%;
+}
+
+.botones3max:hover {
+    color: #25D366;
+    background: #fff;
+    border: 2px solid #25D366;
+}
+
+@media (max-width: 480px) {
+    .pacelldeclased {
+        margin: 50px 0px;
+    }
+
+    .solopael {
+        width: 200%;
+    }
+
+    .Todo1 {
+        text-align: center;
+    }
+
+    .botones3max {
+        margin-left: 150px;
+    }
+
+    .final223 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imgDemo {
+        position: static;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .metodologíadecole {
+        width: 80%;
+    }
+
+    .PregfRECUPu2 {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .videocdemo {
+        width: 90%;
+    }
+
+    .frasexd {
+        width: 90%;
+        height: 80%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .titesc_dem,
+    .titcol_dem,
+    .tituni_dem {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .containerpametodologia {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .cuadrodemeto {
+        margin: 20px 0px;
+    }
+
+    .img1demeto1,
+    .img2demeto2,
+    .img3demeto3 {
+        margin-top: -3%;
+    }
+
+    .img1demeto1 {
+        margin-left: 36%;
+    }
+
+    .img2demeto2 {
+        margin-left: 31%;
+    }
+
+    .img3demeto3 {
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 959px) {
+    .neutro{
+        margin-top: -2%;
+    }
+    .Todo1 {
+        font-size: 18px;
+    }
+
+    .pacelldeclased {
+        margin: 40px 0px;
+    }
+
+    .imgredemo {
+        width: auto;
+        height: auto;
+        margin-top: -5%;
+    }
+
+    .containerpametodologia {
+        margin: 20px auto;
+        width: 70%;
+    }
+
+    .cuadrodemeto {
+        margin: 20px 0px;
+        min-width: 75%;
+    }
+
+    .img1demeto1,
+    .img2demeto2,
+    .img3demeto3 {
+        margin-top: -3%;
+        width: 18%;
+    }
+
+    .img1demeto1 {
+        margin-left: 56%;
+    }
+
+    .img2demeto2 {
+        margin-left: 53%;
+    }
+
+    .img3demeto3 {
+        margin-left: 59%;
+    }
+
+    .final223 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .imgDemo {
+        position: static;
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .formulario77 {
+        width: 110%;
+        margin-left: 66%;
+    }
+
+    .videocdemo {
+        width: 95%;
+    }
+
+    .frasexd {
+        width: 90%;
+        height: 80%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .PregfRECUPu2 {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}

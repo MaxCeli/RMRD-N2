@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Boton Flotante de WhatsApp */
+.botonwasapacole{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color:#fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.container_nc{
+    width: 100%;
+}
+
+/* Borde negro y imágen */
+.titulo{
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.dondeimg{
+    width: 100%;
+    text-align: center;
+}
+.imghorizontalrmrd{
+    border-radius: 20px;
+    width: 90%;
+}
+@media (max-width:480px){
+    .imghorizontalrmrd{
+        width: 90%;
+    }
+    .pacelldecole{
+        margin: 200px 0px;
+    }
+}
+
+/* Metodología */
+.metodologíadecole{
+    padding: 20px;
+    border:solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.metodologíadecole:hover{
+    border:none;
+    background-color: #25D366;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .metodologíadecole{
+        width: 80%;
+    }
+}
+
+.containerpametodologia{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pruebademeto1{
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.pruebademeto1:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+.pruebademeto2{
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.pruebademeto2:hover{
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+}
+.pruebademeto3{
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.pruebademeto3:hover{
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+}
+
+.letrasdemeto{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+}
+.img1demeto1{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 120px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    margin-top: -17px;
+}
+.img2demeto2{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    margin-top: -17px;
+}
+.img3demeto3{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 138px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    margin-top: -17px;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .pacelldecole{
+        margin: 220px 0px;
+    }
+    .containerpametodologia{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        min-width: 75%;
+        margin: 20px 0px;
+    }
+    .img1demeto1, .img2demeto2, .img3demeto3{
+        margin-top: -3%;
+        width: 18%;
+    }
+    .img1demeto1{
+        margin-left: 56%;
+    }
+    .img2demeto2{
+        margin-left: 53%;
+    }
+    .img3demeto3{
+        margin-left: 59%;
+    }
+}
+/* Para celular */
+@media screen and (max-width: 480px) {
+    .containerpametodologia{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        margin: 20px 0px;
+    }
+    .img1demeto1, .img2demeto2, .img3demeto3{
+        margin-top: -3%;
+    }
+    .img1demeto1{
+        margin-left: 36%;
+    }
+    .img2demeto2{
+        margin-left: 31%;
+    }
+    .img3demeto3{
+        margin-left: 40%;
+    }
+}
+
+/* Salto y mensaje */
+.lincort{
+    text-align: center;
+}
+.linearmrd{
+    width: 70%;
+    border-top: 3px solid #FF0000;
+    border: 2px solid #FF0000;
+    margin: 20px auto;
+}
+@media (max-width: 480px){
+    .linearmrd{
+        width: 70%;
+    }
+}
+
+.frasermrd{
+    text-align: center;
+    width: 70%;
+    height: auto;
+    border: 4px solid #25D366;
+}
+.frasermrd h3{
+    margin: 15px 30px 10px 30px;
+}
+
+/* Para cursos diponibles */
+.cursosd{
+    text-align: center;
+}
+.cursosd h2{
+    margin-left: 90px;
+}
+
+.fila1materias{
+    text-align: center;
+}
+.paramaterias1{
+    border:2px solid #25D366;
+    padding: 20px;
+    border-radius: 80px;
+}
+.paramaterias1:hover{
+    background: #25D366;
+    text-decoration: none;
+}
+.form-select10{
+    border: 0;
+    cursor: pointer;
+}
+
+.fila3materias{
+    text-align: center;
+}
+.paramaterias3{
+    border:2px solid #1DA1F2;
+    padding: 20px;
+    border-radius: 80px;
+}
+.paramaterias3:hover{
+    background: #1DA1F2;
+    text-decoration: none;
+}
+
+.fila2materias{
+    text-align: center;
+}
+.paramaterias2{
+    border:2px solid #FF0000;
+    padding: 20px;
+    border-radius: 80px;
+}
+.paramaterias2:hover{
+    background: #FF0000;
+    text-decoration: none;
+}
+
+/* Para la frase que parece título, el video y el botón */
+.partirvideo{
+    text-align: center;
+    color: #1DA1F2;
+}
+
+.videoColeEG{
+    width: 60%;
+}
+@media screen and (min-width: 220px) and (max-width: 959px) {
+    .videoColeEG{
+        width: 80%;
+    }
+}
+
+.botondiag{
+    text-align: center;
+}
+.botondiag a {
+    text-decoration: none;
+    background: #FF0000;
+    color: white;
+    padding: 15px 60px;
+    font-size: clamp(13px, 5vw, 28px);
+    border-radius: 20px;
+}
+.botondiag a:hover{
+    color: #FF0000;
+    background: white;
+    border: 2px solid #FF0000;
+}
+@media (max-width: 480px){
+    .botondiag a {
+        padding: 5px;
+    }
+}
+
+/* Los botones y frase */
+.botonesparacole{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -60px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.botonescolermrd{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.botonescolermrd:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .botonesparacole{
+        flex-wrap: wrap;
+    }
+    .botonescolermrd{
+        margin-bottom: 15px;
+    }
+}
+/* Para celular */
+@media only screen and (max-width: 480px) {
+    /* Ajuste de márgenes y posición */
+    .botonesparacole {
+        flex-direction: column;
+        margin-bottom: 0;
+        display: grid;
+        place-items: center;
+        width: 100%;
+    }
+    /* Ajuste de tamaño y posición de los botones */
+    .botonescolermrd {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.frase2rmrd{
+    text-align: center;
+    width: 80%;
+    height: auto;
+    border: 4px solid #25D366;
+padding: 10px;
+margin-top: 5%;
+margin-bottom: 3%;
+}
+.frase2rmrd h3{
+    margin: 15px 30px 10px 30px;
+}
+
+/* Subtitulo, esos que parecen botones, frase y imagen */
+.subtirmrd{
+    margin-left: 100px;
+}
+.imgydemas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.overflow-hidden{
+    width: 60%;
+    height: auto;
+    margin: 20px;
+}
+.p-3{
+    border: 0;
+    background: #25D366;
+    color: #fff;
+    font-size: clamp(13px, 5vw, 22px);
+    border-radius: 20px;
+    width: 330px;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.p-3:hover{
+    color: #25D366;
+    background: #fff;
+    border: 2px solid #25D366;
+}
+
+.colefrase1{
+    text-align: center;
+    width: 90%;
+    margin: 20px;
+    background: #1DA1F2;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.chicoscole{
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin-right: 150px;
+}
+@media screen and (min-width: 220px) and (max-width: 959px) {
+
+    .imgydemas {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .subtirmrd {
+        margin-left: 15px;
+    }
+
+    .overflow-hidden {
+        width: 100%;
+        margin: 0px;
+        height: 375px;
+    }
+
+    .p-3 {
+        width: 95%;
+        max-width: 330px;
+        margin: 0px;
+    }
+
+    .colefrase1 {
+        width: 95%;
+        margin: 15px 0px;
+    }
+
+    .chicoscole {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+}
+
+/* Sellos colegios y las modalidades */
+.titudesellodecoles{
+    margin-left: 110px;
+}
+@media (max-width: 480px) {
+    .titudesellodecoles{
+        margin-left: 20px;
+    }
+}
+
+.filadecole1{
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.filadecole1 .cole11:hover{
+    width: 240px;
+    height: 170px;
+}
+.filadecole1 .cole22:hover{
+    width: 170px;
+    height: 170px;
+}
+
+.filacole2{
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 480px) {
+    .filadecole1, .filacole2{
+        width: 100%;
+        margin: 0;
+    }
+}
+.filacole2 .cole2_11:hover{
+    width: 170px;
+    height: 170px;
+}
+.filacole2 .cole2_11casoespe:hover{
+    width: 150;
+    height: 200px;
+}
+.filacole2 .cole2_22:hover{
+    width: 240px;
+    height: 170px;
+}
+
+.pamoddecole{
+    flex-wrap: wrap;
+}
+.modalidadcole{
+    width: 100%;
+    text-align: center;
+}
+@media (min-width: 960px) {
+    .modalidadcole{
+        width: 50%;
+        margin-left: 396px;
+    }
+}
+.modvop:hover{
+    width: 200px;
+    height: 200px;
+}
+
+/* Lo de Horario, Programas y Inicio */
+.containerrmrd{
+    width: 100%;
+}
+@media (min-width: 960px) {
+    .containerrmrd{
+        padding: 70px;
+    }
+}
+.paracentrar2{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .xdsolom h5{
+        width: 215%;
+    }
+}
+.estodeceleste{
+    background: #1DA1F2;
+    color: #fff;
+}
+.estorojo{
+    background: #FF0000;
+    color: #fff;
+}
+@media screen and (max-width: 480px) {
+    .estorojo{
+        width: 215%;
+    }
+}
+.paraespacio{
+    padding: 20px;
+}
+.estodeverde{
+    background: #25D366;
+    color: #fff;
+}
+
+/* Carrusel de testimonios */
+.subticarrusel{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.paracarrusel4{
+    background: #D9D9D9;
+    padding: 15px 0px;
+}
+@media (min-width: 960px) {
+    .paracarrusel4{
+        margin: 0px auto;
+    }
+    .subticarrusel{
+        width: 67%;
+        margin: 0 auto;
+    }
+}
+
+.videodeTdeCole{
+    width: 90%;
+    max-width: 700px;
+}
+@media (min-width: 960px) {
+    .videodeTdeCole{
+        max-width: 67%;
+    }
+}
+
+/* para lo del icono del WhatsApp */
+.whats11rmrd{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Poppins';
+    margin-left: 48%;
+}
+
+/* Envio de comentarios, imagen y lo de P.frecuente */
+.final2rmrd{
+    margin-left: 20%;
+    font-family: 'Poppins';
+    width: 60%;
+}
+.img3rmrd{
+    margin: auto;
+    display: block;
+    position:absolute;
+    left: 18.5cm;
+    width: 500px;
+    height: 330px;
+    margin-top: 2.3%;
+}
+
+.formulariormrd24 {
+    background: linear-gradient(#005156, #005156);
+}
+
+.PregfREC1rmrd12{
+    width: 80%;
+    margin: 0 auto;
+}
+.Preguntas2rmrd2 {
+    text-align: center;
+    background-color: #25D366;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins';
+    animation-name: letra;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    background: #1DA1F2;
+}
+.buttonrmrd{
+    width: 98%;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    .final2rmrd {
+        width: 100%;
+        margin-left: 0;
+    }
+    .img3rmrd {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    .formulariormrd24{
+        width: 110%;
+        margin-left: 66%;
+    }
+}
+/* Para celular */
+@media (max-width: 480px) {
+    .final2rmrd {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .img3rmrd {
+        position: static;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+        
+    .PregfREC1rmrd12 {
+        width: 70%;
+        margin: 0 auto;
+    }
+}

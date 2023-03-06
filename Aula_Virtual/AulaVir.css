@@ -1,0 +1,248 @@
+.AuVir{
+    padding: 10px;
+    display: flex;
+    margin-left: 30%;
+}
+.TituAu{
+    background: #000000;
+    font-family: Poppins;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    }
+.EsloAu{
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(#005156, #005156, #005156);
+    width: 60%;
+    text-align: center;
+border-radius: 20px;
+}
+.imgAu{
+    margin: auto;
+    display: block;
+    position:absolute;
+    left: 18.5cm;
+    width: 500px;
+    height: 330px;
+    margin-top: 1.2%;
+  }
+  /* Metodoligía */
+  .metodologíadecole{
+    padding: 20px;
+    border:solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height:auto;
+    margin-bottom: 20px;
+  }
+  .metodologíadecole:hover{
+    border:none;
+    background-color: #25D366;
+    color: white;
+  }
+
+.containerpametodologia{
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+}
+
+.pruebademeto1{
+    background: #1DA1F2;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #1DA1F2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.pruebademeto1:hover{
+    color: #1DA1F2;
+    background: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+.pruebademeto2{
+    background: #ff0000;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #ff0000;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.pruebademeto2:hover{
+    color: #ff0000;
+    background: #ffffff;
+    border: 2px solid #ff0000;
+}
+.pruebademeto3{
+    background: #25D366;
+    font-family: Poppins;
+    border-radius: 10px;
+    border-color: #25D366;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+.pruebademeto3:hover{
+    color: #25D366;
+    background: #ffffff;
+    border: 2px solid #25D366;
+}
+
+.letrasdemeto{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: justify;
+}
+.img1demeto1{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 120px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+.img2demeto2{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+.img3demeto3{
+    display: flex;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-left: 138px;
+    padding: 10px;
+    border-radius: 60%;
+    width: 25%;
+    max-width: 8500px;
+    margin-top: -17px;
+}
+.final22{
+    margin-left: 20%;
+  font-family: 'Poppins';
+  width: 60%;
+}
+.PregfRECUPu2{
+    width: 80%;
+    margin: 0 auto;
+}
+.formulario77{
+    background: linear-gradient(#005156, #005156);
+}
+
+@media (max-width: 480px) {
+    .final22 {
+    width: 100%;
+    margin-left:0;
+    }
+    .imgAu {
+    position: static;
+    width: 100%;
+    margin: 20px auto;
+    }
+    .metodologíadecole{
+        width: 80%;
+    }
+    .PregfRECUPu2{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .videoaulav{
+        width: 90%;
+    }
+    .pacelldeaula{
+        margin: 80px 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .containerpametodologia{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .cuadrodemeto{
+        margin: 20px 0px;
+    }
+    .img1demeto1,.img2demeto2,.img3demeto3{
+        margin-top: -3%;
+    }
+    .img1demeto1{
+        margin-left: 36%;
+    }
+    .img2demeto2{
+        margin-left: 31%;
+    }
+    .img3demeto3{
+        margin-left: 40%;
+    }
+}
+@media (min-width: 481px) and (max-width: 959px){
+    .containerpametodologia{
+        margin: 20px auto;
+        width: 70%;
+    }
+    .pacelldeaula{
+        margin: 70px 0px;
+    }
+    .videoaulav{
+        width: 90%;
+    }
+    .cuadrodemeto{
+        margin: 20px 0px;
+        min-width: 75%;
+    }
+    .img1demeto1,.img2demeto2,.img3demeto3{
+        margin-top: -3%;
+        width: 18%;
+    }
+    .img1demeto1{
+        margin-left: 56%;
+    }
+    .img2demeto2{
+        margin-left: 53%;
+    }
+    .img3demeto3{
+        margin-left: 59%;
+    }
+    .final22 {
+        width: 100%;
+        margin-left:0;
+    }
+    .imgAu {
+        position: static;
+        width: 50%;
+        margin: 20px auto;
+    }
+    .formulario77{
+        width: 110%;
+        margin-left: 66%;
+    }
+
+}

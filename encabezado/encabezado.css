@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+  font-family: Poppins;
+  color: #333;
+}
+.neutro{
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+}
+.pacell{
+  font-size: 30px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 15%;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.Todo1{
+  width: 100%;
+  max-width: 850px;
+  height: 60px;
+  max-height: 850px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.Todo2{
+  background: #000000;
+  color: #1DA1F2;
+  position: block;
+}
+
+.Todo2 a{
+  text-decoration: none;
+  font-family: Poppins;
+}
+.imgEnc{
+  width: 350px;
+  height: 130px;
+  padding:  1px 1rem;
+  margin-left: -1.8%;
+  z-index: 1;
+}
+.opcionesE{
+  list-style: none;
+  display: inline-flex;
+  padding: 30px;
+}
+
+.espacio1{
+  color: #1DA1F2;
+  justify-content: space-between;
+  justify-items: center;
+  position: relative;
+  margin-left: 40px;
+  display: flex;
+}
+.espacioletra1{
+padding: 1rem;
+margin-top: -10.5%;
+}
+.opcionesE ul li{
+  display: inline-flex;
+  position:relative;
+  
+}
+.opcionesE ul li a{
+  padding: 1rem;
+  transition: all 0.4 linear;
+  border-radius: 5px;
+  color: #000000;
+  justify-content: flex-end;
+  display: absolute;
+  position: relative;
+}
+
+.opcionesE ul li a:hover{
+  background-color: #e70a0a;
+}
+
+.iconosEn{
+  justify-content: space-between;
+  padding: 0.8rem;
+  justify-items: center;
+  display: inline-flex;
+  gap: 8px;
+}
+.fb{
+  color: #1DA1F2;
+  background: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 1s ;
+  padding: 10px 0.8rem;
+  font-size: 23px;
+  display:inline-flex;
+  justify-content: space-between;
+}
+.fmess{
+    color: #2d8db9;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 1s ;
+    font-size: 23px;
+    padding: 10px 0.6rem;
+    display:flex;
+    justify-content: space-between;
+}
+.whats{
+    color: #0e9451;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 1s ;
+    font-size: 23px;
+    padding: 10px 0.8rem;
+    display:flex;
+    justify-content: space-between;
+}
+.ig{
+    color: #e433d5;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 1s ;
+    font-size: 23px;
+    padding: 10px 0.8rem;
+    display:flex;
+    justify-content: space-between;
+}
+.YT{
+    color: #e70a0a;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 1s ;
+    font-size: 23px;
+    padding: 10px 0.6rem;
+    display:flex;
+    justify-content: space-between;
+}
+.Twtt{
+    color: #15cff0c5;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 1s ;
+    font-size: 23px;
+    padding: 10px 0.7rem;
+    display:flex;
+    justify-content: space-between;
+}
+.TTK{
+    color: #aa17e4;
+    background: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 1s ;
+    font-size: 23px;
+    padding: 10px 0.8rem;
+    display:flex;
+    justify-content: space-between;
+}
+.header2E{
+  background: #81807C;
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  height: 70px;
+  position: relative;
+}
+.botones2{
+  margin-top: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF0000;
+  padding: 5px ;
+  border-radius: 7px;
+  font-size: 17px;
+  border-color: #FF0000;
+}
+.botones2:hover{
+  color: #FF0000;
+  background: white;
+  border: 2px solid #FF0000;
+}
+.botones3{
+  margin-top: 15px;
+  margin-right: 200px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #25D366;
+  padding: 5px ;
+  border-radius: 7px;
+  font-size: 17px;
+  border-color: #25D366;
+  margin-left: 13%;
+}
+.botones3:hover{
+  color: #25D366;
+  background: #fff;
+  border: 2px solid #25D366;
+}
+
+/*Buscador*/
+
+#ctn-bars-search{
+  position: fixed;
+  top:-10px;
+  width: 100%;
+  background: #81807C;
+  padding: 10px;
+  margin-top: 3.6%;
+  z-index: 9;
+  transition: all 600ms;
+}
+#ctn-bars-search input{
+display: space-between;
+  width: 1100px;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+  font-family: Poppins;
+  outline: 0;
+}
+#icono-x{
+  margin-left: 2%;
+  font-size: 25px;
+  cursor: pointer;
+}
+#box-search{
+  position: fixed;
+  top: 200px;
+  left: 40%;
+  transform: translateX(-40%);
+  width: 1100px;
+  background: #1DA1F2;
+  z-index: 8;
+  display: none;
+}
+
+#box-search li a{
+  display: block;
+  width: 1200px;
+  color:#fff;
+  padding: 12px 15px;
+  text-decoration: none;
+}
+#box-search li a:hover{
+  background: #25D366;
+  width: 1030px;
+}
+
+#box-search li a i{
+  margin-right: 10px;
+}
+
+#cover-ctn-search{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1000);
+  z-index: 12;
+  display: none;
+}
+@media screen and (min-width: 481px) and (max-width: 1050px) {
+  .neutro{
+    width: 100%;
+  }
+  .iconosEn{
+    display: none;
+  }
+  .Todo1{
+    height: auto;
+  }
+  .imgEnc{
+    width: 300px;
+  }
+  .opcionesE{
+    margin-left: -8%;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header2E{
+    width: 100%;
+  }
+  .botones2{
+    margin-left: 100%;
+    font-size: 20px;
+  }
+  .nopusi{
+    width: 100%;
+  }
+  .botones3{
+    margin-left: 60%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .neutro{
+    width: 100%;
+  }
+  .pacell{
+    margin-right: 5%;
+    display: block;
+  }
+  .imgEnc{
+    width: 300px;
+    height: 120px;
+    margin-left: -4%;
+    margin-top: -60px;
+  }
+  .opcionesE{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 22%;
+    left: -120%;
+    text-align: center;
+    transition: all .5s;
+  }
+  .opcionesE{
+    display: block;
+    margin: 0;
+    font-size: 26px;
+  }
+  .espacioletra1{
+    margin-right: 100%;
+    margin-top: -5%;
+  }
+  .rmrdsol{
+    margin-right: 100%;
+  }
+
+  .espacio1{
+    margin: 0px 20px 40px 20px;
+  }
+  .header2E{
+    width: 100%;
+  }
+  .iconosEn{
+    display: none;
+  }
+  .nopusi{
+    width: 200%;
+  }
+  .botones2{
+    margin-left: 150%;
+  }
+  .botones3{
+    margin-left: 70%;
+  }
+}

@@ -1,0 +1,796 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Botón Whatsapp */
+.wasa {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+/* Título y IMG Escuela */
+.escuela {
+  background: #000000;
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.dondeimgescu{
+  width: 100%;
+  text-align: center;
+}
+.escue {
+  border-radius: 20px;
+  width: 90%;
+}
+/* Título de metodología */
+.metodologíaxd77{
+    padding: 20px;
+    border:solid 2px #25D366;
+    border-radius: 5px;
+    width: 600px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.metodologíaxd77:hover{
+    border:none;
+    background-color: #25D366;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+  .metodologíaxd77{
+      width: 80%;
+  }
+  .pacelldeEscu{
+    margin: 80px 0px;
+  }
+}
+/* Metodología */
+.contactosxd77 {
+  margin: 20px 100px 20px 100px;
+  text-align: center;
+}
+
+.contactoprueba1 {
+  background: #1DA1F2;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #1DA1F2;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba1:hover {
+  color: #1DA1F2;
+  background: #ffffff;
+  border: 2px solid #1DA1F2;
+}
+
+.contactoprueba2 {
+  background: #ff0000;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #ff0000;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba2:hover {
+  color: #ff0000;
+  background: #ffffff;
+  border: 2px solid #ff0000;
+}
+
+.contactoprueba3 {
+  background: #25D366;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #25D366;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba3:hover {
+  color: #25D366;
+  background: #ffffff;
+  border: 2px solid #25D366;
+}
+
+.letrascontactos {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.contactoimgmeto1 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.contactoimgmeto2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 100px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.contactoimgmeto3 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 120px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px){
+  .pacelldeEscu{
+    margin: 60px 0px;
+  }
+  .contactosxd77{
+    width: 70%;
+    margin: 20px auto;
+  }
+  .cuadrodemeto{
+    min-width: 75%;
+    margin: 20px 0px;
+  }
+  .contactoimgmeto1, .contactoimgmeto2, .contactoimgmeto3{
+    margin-top: -3%;
+    width: 18%;
+  }
+  .contactoimgmeto1{
+    margin-left: 56%;
+  }
+  .contactoimgmeto2{
+    margin-left: 53%;
+  }
+  .contactoimgmeto3{
+    margin-left: 59%;
+  }
+}
+/* Para celular */
+@media screen and (max-width: 480px) {
+  .contactosxd77{
+      width: 80%;
+      margin: 20px auto;
+  }
+  .cuadrodemeto{
+      margin: 20px 0px;
+  }
+  .contactoimgmeto1, .contactoimgmeto2, .contactoimgmeto3{
+      margin-top: -3%;
+  }
+  .contactoimgmeto1{
+      margin-left: 36%;
+  }
+  .contactoimgmeto2{
+      margin-left: 31%;
+  }
+  .contactoimgmeto3{
+      margin-left: 40%;
+  }
+}
+/* Salto y mensaje */
+.lincortxd {
+  text-align: center;
+}
+
+.linearmrdxd {
+  width: 70%;
+  border-top: 3px solid #FF0000;
+  border: 2px solid #FF0000;
+  margin: 20px auto;
+}
+
+.frasermrdxd {
+  text-align: center;
+  width: 70%;
+  height: auto;
+  border: 4px solid #25D366;
+}
+
+.frasermrdxd h3 {
+  margin: 15px 30px 10px 30px;
+}
+
+/* Para cursos diponibles */
+.cursosdi {
+  text-align: center;
+}
+
+.cursosdi h2 {
+  margin-left: 110px;
+}
+@media (max-width: 480px) {
+  .cursosdi h2{
+      margin-left: 80px;
+  }
+}
+
+.fila1materias1 {
+  text-align: center;
+}
+
+.para1materias1 {
+  border: 2px solid #25D366;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+.para1materias1:hover {
+  background: #25D366;
+  text-decoration: none;
+}
+
+.form-select10 {
+  border: 0;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.fila3materias3 {
+  text-align: center;
+}
+
+.para3materias3 {
+  border: 2px solid #1DA1F2;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+.para3materias3:hover {
+  background: #1DA1F2;
+  text-decoration: none;
+}
+
+.fila2materias2 {
+  text-align: center;
+}
+
+.para2materias2 {
+  border: 2px solid #FF0000;
+  padding: 20px;
+  border-radius: 80px;
+}
+
+.para2materias2:hover {
+  background: #FF0000;
+  text-decoration: none;
+}
+
+/* Para el vidéo y el boton */
+.gar {
+  text-align: center;
+  color: #1DA1F2;
+}
+
+.videoxd {
+  width: 60%;
+}
+@media (max-width: 480px){
+  .videoxd{
+      width: 80%;
+  }
+}
+
+.botondiag {
+  text-align: center;
+}
+.botondiag a {
+  text-decoration: none;
+  background: #FF0000;
+  color: white;
+  padding: 15px 60px;
+  font-size: 25px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+}
+.botondiag a:hover {
+  color: #FF0000;
+  background: white;
+  border: 2px solid #FF0000;
+}
+@media (max-width: 480px){
+  .botondiag a {
+      padding: 0px;
+  }
+}
+/* Los botones */
+.botonesparacole{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-top: 5px;
+}
+.botonescolermrd{
+  text-decoration: none;
+  color: #fff;
+  background-color: #1DA1F2;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.botonescolermrd:hover{
+  color: #1DA1F2;
+  background: #ffffff;
+  border: 2px solid #1DA1F2;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+  .botonesparacole{
+      flex-wrap: wrap;
+  }
+  .botonescolermrd{
+      margin-bottom: 15px;
+  }
+}
+/* Para celular */
+@media only screen and (max-width: 480px) {
+  /* Ajuste de márgenes y posición */
+  .botonesparacole {
+      flex-direction: column;
+      margin-bottom: 0;
+      display: grid;
+      place-items: center;
+      width: 100%;
+  }
+  /* Ajuste de tamaño y posición de los botones */
+  .botonescolermrd {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
+/* Subtitulo, esos que parecen botones, frase y imagen */
+.subtirmrdxd778{
+  margin: 0px 0px 0px 70px;
+}
+.imgydemasescu{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.overflow-hidden{
+  width: 60%;
+  height: auto;
+  margin: 20px;
+}
+.p-3{
+  border: 0;
+  background: #25D366;
+  color: #fff;
+  font-size: clamp(13px, 5vw, 22px);
+  border-radius: 20px;
+  width: 330px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.p-3:hover{
+  color: #25D366;
+  background: #fff;
+  border: 2px solid #25D366;
+}
+.colefrase1xd779{
+  text-align: center;
+  width: 90%;
+  margin: 20px;
+  background: #1DA1F2;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+.chicoscole77xd9{
+  display: flex;
+  height: 350px;
+  width: 400px;
+  margin-right: 150px;
+}
+
+@media screen and (min-width: 220px) and (max-width: 959px) {
+
+  .imgydemasescu {
+      flex-direction: column;
+      margin: 0 auto;
+      width: 95%;
+  }
+
+  .subtirmrdxd778 {
+      margin-left: 15px;
+  }
+
+  .overflow-hidden {
+      width: 100%;
+      margin: 0px;
+      height: 375px;
+  }
+
+  .p-3 {
+      width: 95%;
+      max-width: 330px;
+      margin: 0px;
+  }
+
+  .colefrase1xd779 {
+      width: 95%;
+      margin: 15px 0px;
+  }
+
+  .chicoscole77xd9 {
+      width: 100%;
+      max-width: 350px;
+      margin: 0px auto;
+  }
+}
+/* Sellos de las escuelas */
+.colesprivadosxd {
+  margin: 0px 0px 0px 120px;
+}
+.colegios1xd {
+  padding: 30px;
+  margin: 0px 0px 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.colegios1xd .cole11:hover {
+  width: 125px;
+  height: 125px;
+}
+
+.colegios1xd .cole22:hover {
+  width: 135px;
+  height: 125px;
+}
+
+.colegios1xd .cole33:hover {
+  width: 140px;
+  height: 140px;
+}
+
+.colegios2xd {
+  padding: 30px;
+  margin: 0px 0px 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width:480px){
+  .colegios1xd, .colegios2xd{
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .colesprivadosxd{
+    margin: 0 auto;
+  }
+}
+.colegios2xd .cole2_11:hover {
+  width: 125px;
+  height: 125px;
+}
+
+.colegios2xd .cole2_22:hover {
+  width: 145px;
+  height: 145px;
+}
+
+/* Modalidades */
+.containerpamodalidadxd {
+  margin: 20px 50px 0px 50px;
+}
+.paracentrariconxd {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+.modvop:hover {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-width: 220px) and (max-width: 959px) {
+  .colegios1xd, .colegios2xd{
+    width: 100%;
+    margin: 0;
+  }
+  .colesprivadosxd{
+    margin-left: 50px;
+  }
+  .colesprivadosxd h3{
+    font-size: 32px;
+  }
+  .paracentrariconxd {
+    padding: 0;
+  }
+}
+@media (max-width:480px){
+  .containerpaimegen2xd{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .containerpamodalidadxd{
+    width: 50%;
+  }
+  .paracentrariconxd {
+    padding: 0;
+  }
+}
+/*  */
+.containerrmrdxd {
+  padding: 30px;
+}
+@media (min-width: 960px) {
+  .containerrmrdxd{
+      padding: 70px;
+  }
+}
+.paracentrar2xd {
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .xdsoloE h5{
+      width: 215%;
+  }
+}
+.estodecelestexd {
+  background: #1DA1F2;
+  color: #fff;
+}
+.paraespacioxd {
+  padding: 20px;
+}
+.estorojoxd {
+  background: #FF0000;
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .estorojoxd{
+      width: 215%;
+  }
+}
+.estodeverdexd {
+  background: #25D366;
+  color: #fff;
+}
+/* Carrusel */
+.subticarruselxd {
+  text-align: center;
+}
+.paracarrusel4xd {
+  margin: 0px 20px;
+  background: #D9D9D9;
+  padding: 15px 0px;
+}
+@media (min-width: 960px) {
+  .paracarrusel4xd{
+      margin: 0px 250px;
+  }
+}
+
+.videodeTdeColexd77{
+  width: 90%;
+  max-width: 700px;
+}
+@media (min-width: 960px) {
+  .videodeTdeColexd77{
+      max-width: 67%;
+  }
+}
+/* Cuadro de comentarios, IMG y el de preguntas frecuentes */
+.final2rmrd {
+  margin-left: 20%;
+  font-family: 'Poppins';
+  width: 60%;
+}
+.img3rmrd {
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 18.5cm;
+  width: 500px;
+  height: 330px;
+  margin-top: 2.3%;
+}
+.formulariormrd24 {
+  background: linear-gradient(#005156, #005156);
+}
+.buttonrmrdes {
+  width: 98%;
+}
+
+.PregfRECLP {
+  width: 80%;
+  margin: 0 auto;
+}
+.PreguntULP2 {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+  animation-name: letra;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  color: #fff;
+  background: #1DA1F2;
+}
+/* Para tablet */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+  .final2rmrd {
+      width: 100%;
+      margin-left: 0;
+  }
+  .img3rmrd {
+      position: static;
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+  }
+  .formulariormrd24{
+      width: 110%;
+      margin-left: 66%;
+  }
+  
+}
+/* Para celular */
+@media (max-width: 480px) {
+  .final2rmrd {
+      width: 100%;
+      margin-left: 0;
+  }
+      
+  .img3rmrd {
+      position: static;
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+  }
+      
+  .PregfRECLP {
+      width: 70%;
+      margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+.PregfREC1xd {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.Preguntas2xd {
+  text-align: center;
+  background-color: #25D366;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+}
+
+.formularioxd {
+  background: linear-gradient(#1DA1F2, rgb(0, 174, 255));
+}
+
+.imgxd {
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 20cm;
+  width: 300px;
+  height: 330px;
+}
+
+.finalxd {
+  margin-left: 20%;
+  font-family: 'Poppins';
+  width: 68%;
+}
+
+.whats11 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: 'Poppins';
+  margin-left: 48%;
+}
+
+/* Carrusel de testimonios */
+
+
+.button99xd {
+  margin: auto;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  width: 70px;
+  border: none;
+  font-family: 'Poppins';
+  background-color: white;
+  color: #1DA1F2;
+  border: 2px solid #1DA1F2;
+}
+
+.button99xd {
+  transition-duration: 0.4s;
+}
+
+.button99xd:hover {
+  background-color: #25D366;
+  color: white;
+}
+
+@keyframes letra {
+  0% {
+                      background-color: none;
+  }
+
+  50% {
+                      background-color: #1DA1F2;
+  }
+
+  75% {
+                      background-color: #ff0000;
+  }
+
+  100% {
+                      background-color: #25D366;
+  }
+}

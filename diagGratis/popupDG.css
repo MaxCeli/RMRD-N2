@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    font-family: 'Poppins';
+    background-size: 100vw 100vh;
+}
+
+/* para el modal en sí */
+body, .modalrmrd369{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalrmrd369{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(209, 206, 206, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    animation: modal 2s 0.1s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Para el contenedor del modal y el contenedor del formulario */
+.containerpaDG{
+    width: 700px;
+    height: 1230px;
+    margin: auto;
+    background: #005156;
+    box-shadow: 1px 7px 30px rgba(0, 0, 0, 0.6);
+    transition: all 500ms ease;
+    position: relative;
+    border-radius: 30px;
+}
+
+.contenido{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Logo de empresa, el borde negro y para cerrar(X) */
+.logo{
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 6px 20px 1px 50px;
+}
+.containerpaDG header{
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    font-size: 15px;
+}
+.containerpaDG label{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #000000;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@keyframes modal{
+    100%{
+    visibility: visible;
+    opacity: 1;
+    }
+}
+
+/* Contenedor amarillo */
+.contenido{
+    background-color: #E8DD85;
+    padding: 2px 25px;
+    border-radius: 20px;
+    border: 2px solid #555133;
+    margin: 1px 60px 1px 60px;
+    width: 75%;
+    height: 880px;
+}
+
+/* Para los input y los de selección*/
+.sinb{
+    border: 0;
+    padding: 10px 130px;
+    border-radius: 40px;
+}
+.payasabespe{
+    display: flex;
+    padding: 0;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.sinb2{
+    border: 0;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+.paunirenDG{
+    display: flex;
+    padding: 0;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.form-select{
+    padding: 5px 0px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+    border: 0;
+}
+.form-select:hover{
+    cursor: pointer;
+}
+
+/* Para el botón enviar y los 2 de WhatsApp*/
+.enviado{
+    color: #fff;
+    background-color: #1DA1F2;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    border-color: #1DA1F2;
+}
+.enviado:hover{
+    color: #1DA1F2;
+    background: #fff;
+    border: 2px solid #1DA1F2;
+    cursor: pointer;
+}
+.pamovicon{
+    transform: translate(340%, -90%);
+}
+
+.pamovendew{
+    margin-top: -40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.miw{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF0000;
+    padding: 5px;
+    border-radius: 40px;
+    font-size: 17px;
+    border: 2px solid #000000;
+    border-color: #FF0000;
+    margin: 0px 2px ;
+}
+.miw:hover{
+    color: #FF0000;
+    background: #fff;
+    border: 2px solid #FF0000;
+}
+
+.asacrmrd{
+    text-decoration: none;
+    color: #fff;
+    background-color: #25D366;
+    padding:  5px;
+    border-radius: 40px;
+    font-size: 17px;
+    border: 2px solid #000000;
+    border-color: #25D366;
+    margin: 0px 2px ;
+}
+.asacrmrd:hover{
+    color: #25D366;
+    background: #fff;
+    border: 2px solid #25D366;
+}
+
+/* Pie del Pop up */
+.piepagina{
+    display: flex;
+    margin: 0px 10px;
+    padding: 0;
+    text-align: center;
+}
+.pie{
+    padding: 20px 20px;
+    color: #fff;
+    background-color: black;
+    clear: left;
+    text-align: right;
+    vertical-align: middle;
+    line-height:25px;
+    border-radius: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.icono{
+    display:flex;
+    vertical-align:top;
+    padding: 0px 5px;
+    
+}
+
+
+@media (max-width: 480px) {
+ .containerpaDG{
+    width: 95%;
+    height: 188%;
+ }
+ .logo{
+    position: static;
+    width: 95%;
+    margin: 7px;
+ }
+ .contenido{
+    position: static;
+    width: 82%;
+    height: 76.5%;
+    margin: 7px;
+ }
+ .sinb{
+    width: 15%;
+ }
+ .agendaesta{
+   text-align: center;
+ }
+  }
+  @media screen and (max-width: 480px) {
+    .enviado{
+        width: 110%;
+        margin: -5%;
+     }
+     
+      .miw,.asacrmrd{
+        width: 100%;
+        padding: 5px;
+        margin:5px ;
+     } 
+     .piepagina,.pie{
+        width: 100%;
+        margin-left: 0;
+     }
+     .pamovicon{
+        margin-left: -5%;
+        margin-top: 6%;
+     }
+     
+  }
+  @media (min-width: 481px) and (max-width: 959px){
+    .contenido{
+        
+        height: 75%;
+     }
+    }

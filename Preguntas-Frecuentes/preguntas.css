@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Boton Flotante de WhatsApp */
+.botonwasapapregu{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #25D366;
+  color:#fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.niv {
+  color: #1DA1F2;
+  font-size: 30px;
+  text-align: center;
+}
+
+.num {
+  text-align: center;
+  color: #ff0000;
+  font-size: 30px;
+}
+
+.prefre {
+  background: #000000;
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.nivescue {
+  background: #000000;
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.nivcole {
+  background: #000000;
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Metodologia */
+.contactosxd77 {
+  margin: 20px 100px 20px 100px;
+  text-align: center;
+}
+
+.letrascontactos{
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.contactoprueba1 {
+  background: #1DA1F2;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #1DA1F2;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba1:hover {
+  color: #1DA1F2;
+  background: #ffffff;
+  border: 2px solid #1DA1F2;
+}
+
+.contactoprueba2 {
+  background: #ff0000;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #ff0000;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba2:hover {
+  color: #ff0000;
+  background: #ffffff;
+  border: 2px solid #ff0000;
+}
+
+.contactoprueba3 {
+  background: #25D366;
+  font-family: Poppins;
+  border-radius: 10px;
+  border-color: #25D366;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  color: #fff;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.644);
+}
+
+.contactoprueba3:hover {
+  color: #25D366;
+  background: #ffffff;
+  border: 2px solid #25D366;
+}
+
+.letrasdemeto {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.contactoimgmeto1 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 115px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.contactoimgmeto2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 95px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.contactoimgmeto3 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 130px;
+  padding: 10px;
+  border-radius: 60%;
+  width: 25%;
+  max-width: 8500px;
+  margin-top: -17px;
+}
+
+.Pregunt {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.Preguntxd {
+  text-align: center;
+  background-color: #25D366;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+}
+
+.pacadeG {
+  margin: 0px 200px 0px 200px;
+}
+
+.botonesparacole {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.botonescolermrd {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1DA1F2;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.botonescolermrd:hover {
+  color: #1DA1F2;
+  background: #ffffff;
+  border: 2px solid #1DA1F2;
+}
+
+.letras6 {
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+.colXd1 {
+  border: 2px solid #ff0000;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+  font-size: 19px;
+}
+
+.colXd1:hover {
+  color: #ffffff;
+  background: #ff0000;
+  border: 2px solid #ff0000;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.colXd {
+  border: 2px solid #ff0000;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.colXd:hover {
+  color: #ffffff;
+  background: #ff0000;
+  border: 2px solid #ff0000;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
+}
+
+.PregfREC1rmrd12 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.Preguntas2rmrd2 {
+  text-align: center;
+  background-color: #25D366;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+}
+
+.whats11rmrd {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-family: 'Poppins';
+  margin-left: 48%;
+}
+
+.caroselpreg {
+  margin: 10px 200px;
+}
+
+.PregfRECLP {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.PreguntULP2 {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
+  font-family: 'Poppins';
+  animation-name: letra;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  color: #fff;
+  background: #1DA1F2;
+}
+
+@keyframes letra {
+  0% {
+    background-color: none;
+  }
+
+  50% {
+    background-color: #1DA1F2;
+  }
+
+  75% {
+    background-color: #ff0000;
+  }
+
+  100% {
+    background-color: #25D366;
+  }
+}
+
+.formulariormrd24 {
+  background: linear-gradient(#005156, #005156);
+}
+
+.img3rmrd {
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 21cm;
+  width: 500px;
+  height: 330px;
+  margin-top: 1.2%;
+}
+
+.final2rmrd { 
+  margin-left: 20%;
+  font-family: 'Poppins';
+  width: 60%;
+}
+
+.buttonrmrd {
+  padding: 5px 150px;
+}
+
+.metodologíadecolepregunxd {
+  padding: 20px;
+  border: solid 2px #25D366;
+  border-radius: 5px;
+  width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.metodologíadecolepregunxd:hover {
+  border: none;
+  background-color: #25D366;
+  color: white;
+}
+
+.cont122 {
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 481px) and (max-width: 959px){
+  .pacelldepreg{
+    margin: 220px 0px;
+  }
+  .cuadrodemeto{
+    min-width: 75%;
+    margin: 20px 0px;
+  }
+
+  .contactoimgmeto1, .contactoimgmeto2, .contactoimgmeto3{
+    margin-top: -3%;
+    width: 18%;
+  }
+
+  .contactoimgmeto1 {
+    margin-left: 56%;
+  }
+
+  .contactoimgmeto2 {
+    margin-left: 53%;
+  }
+
+  .contactoimgmeto3 {
+    margin-left: 59%;
+  }
+
+  .caroselpreg {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .botonesparacole{
+    flex-wrap: wrap;
+  }
+  .botonescolermrd{
+    margin-bottom: 15px;
+  }
+  .divcont1, .divcont1 h4{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .final2rmrd {
+    width: 100%;
+    margin-left: 0;
+  }
+  .img3rmrd {
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  .formulariormrd24{
+    width: 110%;
+    margin-left: 66%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pacelldepreg{
+    margin: 200px 0px;
+  }
+  .prefre {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .caroselpreg {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .metodologíadecolepregunxd {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    font-size: 10px;
+  }
+
+  .contactosxd77 {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .cuadrodemeto{
+    margin: 20px 0px;
+  }
+
+  .nivescue {
+    flex-direction: column;
+    margin-bottom: 0;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .Preguntxd {
+    
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+    place-items: center;
+    width: 100%;
+  }
+
+  /* Ajuste de márgenes y posición */
+  .botonesparacole {
+    flex-direction: column;
+    margin-bottom: 0;
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+
+  /* Ajuste de tamaño y posición de los botones */
+  .botonescolermrd {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contactoimgmeto1 {
+    width: 90px;
+    margin-left: 35%;
+  }
+
+  .contactoimgmeto2 {
+    width: 90px;
+    margin-left: 30%;
+  }
+
+  .contactoimgmeto3 {
+    width: 90px;
+    margin-left: 37%;
+  }
+
+  .imgcor {
+    width: 100%;
+  }
+
+  .niv, .num {
+    font-size: 20px;
+  }
+
+  .formulariormrd24 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .img3rmrd {
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+
+  .img123 {
+    width: 100%;
+  }
+
+  .colXd {
+    width: 100%;
+  }
+
+  .colXd1 {
+    width: 100%;
+  }
+
+  .final2rmrd{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .PregfRECLP{
+    width: 70%;
+  }
+
+}
