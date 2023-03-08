@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<!--  -->
+    <!--  -->
     <!-- Boton Flotante de WhatsApp -->
     <a href="https://api.whatsapp.com/send?phone=593992648069&app=facebook&entry_point=page_cta" class="botonwasapacole"
         target="_blank"> <i class="fa fa-whatsapp"></i></a>
@@ -201,13 +201,12 @@
                                 <button class="button collapsed pruebademeto1" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    <p style="margin-left:40px; margin-top: 10px;"> Asimila</p><img
+                                    <p style="margin-left:40px; margin-top: 10px;"> Asimila <img class="pariconNC2" src="../img/ICONOS/flecha.png" alt=""></p><img
                                         src="../img/ICONOS/1.1.png" alt="" class="img1demeto1">
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-
                                 <div class="accordion-body letrasdemeto">Nuestro objetivo es llenar los vacíos
                                     académicos generados
                                     en años anteriores.</div>
@@ -225,7 +224,7 @@
                                 <button class="button collapsed pruebademeto2" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    <p style="margin-left:40px; margin-top: 10px;"> Aprende</p><img
+                                    <p style="margin-left:40px; margin-top: 10px;"> Aprende <img class="pariconNC" src="../img/ICONOS/flecha.png" alt=""></p><img
                                         src="../img/ICONOS/2.1.png" alt="" class="img2demeto2">
                                 </button>
                             </h2>
@@ -248,7 +247,7 @@
                                 <button class="button collapsed pruebademeto3" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    <p style="margin-left:40px; margin-top: 10px;"> Aplica </p><img
+                                    <p style="margin-left:40px; margin-top: 10px;"> Aplica <img class="pariconNC2" src="../img/ICONOS/flecha.png" alt=""></p><img
                                         src="../img/ICONOS/3.1.png" alt="" class="img3demeto3">
                                 </button>
                             </h2>
@@ -461,7 +460,7 @@
         <br>
         <div class="partirvideo">
             <h2>CLASES PERSONALIZADAS</h2>
-            <h2>100% GARANTIZADO, 16 AÑOS DE EXPERIENCIA</h2>
+            <h2>100% PRÁCTICO, GARANTIZADO Y PERSONALIZADO, 16 AÑOS DE EXPERIENCIA</h2>
         </div>
         <br>
         <center>
@@ -533,29 +532,32 @@
             <img class="cole11" src="imgcolegio/Escudos cole/2.CERERР.png" width="180px" height="130px">
             <img class="cole11" src="imgcolegio/Escudos cole/3. COLEGIO AMERICA.png" width="190px" height="120px">
             <img class="cole22" src="imgcolegio/Escudos cole/4 .LETORT-150x150.png" width="120px" height="120px">
-            <img class="cole22" src="imgcolegio/Escudos cole/5.DON BOSCO (2).png" width="120px" height="120px">
         </div>
 
         <div class="filadecole1">
+            <img class="cole22" src="imgcolegio/Escudos cole/5.DON BOSCO (2).png" width="120px" height="120px">
             <img class="cole22" src="imgcolegio/Escudos cole/6.ALVERNIA.png" width="120px" height="120px">
             <img class="cole22" src="imgcolegio/Escudos cole/7.EUFRASIA-r PNG.png" width="120px" height="120px">
             <img class="cole11" src="imgcolegio/Escudos cole/8.ANDERSON.png" width="190px" height="120px">
-            <img class="cole11" src="imgcolegio/Escudos cole/9. Spellman.png" width="190px" height="120px">
-            <img class="cole22" src="imgcolegio/Escudos cole/10. RUMIPAMBA.png" width="120px" height="120px">
         </div>
 
-        <div class="filacole2">
+        <div class="filadecole1">
+            <img class="cole11" src="imgcolegio/Escudos cole/9. Spellman.png" width="190px" height="120px">
+            <img class="cole22" src="imgcolegio/Escudos cole/10. RUMIPAMBA.png" width="120px" height="120px">
             <img class="cole2_11" src="imgcolegio/Escudos cole/11.MARISTA.png" width="120px" height="120px">
             <img class="cole2_22" src="imgcolegio/Escudos cole/12. NUESTRA SEеORA DEL ROSARIO.png" width="190px"
                 height="120px">
+        </div>
+
+        <div class="filadecole1">
             <img class="cole2_11" src="imgcolegio/Escudos cole/13. CENTRAL TРCNICO.png" width="120px" height="120px">
             <img class="cole2_11casoespe" src="imgcolegio/Escudos cole/14.COLE. ELOY ALFARO.png" width="100px"
                 height="150px">
             <img class="cole2_22" src="imgcolegio/Escudos cole/15. EUGENIO ESPEJO.png" width="190px" height="120px">
+            <img class="cole2_11" src="imgcolegio/Escudos cole/16.FEMENINO ESPEJO.png" width="120px" height="120px">
         </div>
 
-        <div class="filacole2">
-            <img class="cole2_11" src="imgcolegio/Escudos cole/16.FEMENINO ESPEJO.png" width="120px" height="120px">
+        <div class="filadecole1">
             <img class="cole2_11" src="imgcolegio/Escudos cole/17.MEJ╓A.png" width="120px" height="120px">
             <img class="cole2_11" src="imgcolegio/Escudos cole/18.SEBASTIAN BENALCAZAR.png" width="120px"
                 height="120px">
@@ -583,13 +585,13 @@
         </div>
         <br>
         <!-- Lo de Horario, Programas, Inicio y el video de donde van los testimonios -->
-        <div class="containerrmrd">
+        <div class="containerrmrdcole">
             <div class="row">
-                <div class="col paracentrar2">
+                <div class="col paracentrar2cole">
                     <h3 class="estodeceleste">Horario</h3>
                     <h4 class="paraespacio">Mañana ó tarde seguimineto personalizado Lunes a Sábado</h4>
                 </div>
-                <div class="col-6 paracentrar2 xdsolom">
+                <div class="col-6 paracentrar2cole xdsolomcole">
                     <h3 class="estorojo">Programas</h3>
                     <h5>Nivelación por hora</h5>
                     <h5>Seguimiento Elemental</h5>
@@ -597,7 +599,7 @@
                     <h5>Seguimiento Intermedio</h5>
                     <h5>Seguimiento Avanzado</h5>
                 </div>
-                <div class="col paracentrar2">
+                <div class="col paracentrar2cole">
                     <h3 class="estodeverde">Inicio</h3>
                     <h4 class="paraespacio">Cursos continuos todos los días del año Académico</h4>
                 </div>
@@ -617,7 +619,7 @@
         <div>
             <p style="color:#1DA1F2; font-size: 30px; text-align: center;"><b>NIVÉLATE, APRENDE Y APRUEBA SIN PROBLEMAS
                     TODAS TUS MATERIAS</b></p>
-            <p style="color:#1DA1F2; font-size: 20px;text-align: center;"><b> 100% GARANTIZADO - PERSONALIZADO </b></p>
+            <p style="color:#1DA1F2; font-size: 20px;text-align: center;"><b> 100% PRÁCTICO - GARANTIZADO - PERSONALIZADO </b></p>
             <p style="color:#1DA1F2; font-size: 20px; text-align: center;"><b>16 AÑOS DE EXPERIENCIA</b></p>
             <h4 style="color:#FF0000; text-align: center;">Contáctenos para una asesoría profesional:</h4>
             <h4 style=" text-align: center;">0992648069</h4><img class="whats11rmrd"
@@ -634,18 +636,23 @@
                     <div class="card-body">
                         <div class="mb-3">
                             <label for="" class="form label">Nombres:</label>
-                            <input type="text" name="" id="nombres" class="form control" placeholder="Nombre"
+                            <input type="text" name="" id="nombres" class="form control pacuadrocole" placeholder="Nombre"
                                 aria-describedby="helId">
                         </div>
                         <div class="mb-3">
                             <label for="" class="form label">Tu correo:</label>
-                            <input type="mail" name="" id="correo" class="form control" placeholder="@hotmail.com"
+                            <input type="mail" name="" id="correo" class="form control pacuadrocole2" placeholder="@hotmail.com"
                                 aria-describedby="helId">
                         </div>
                         <div class="mb-3">
                             <label for="" class="form label">Pregunta:</label>
-                            <textarea name="" id="pregunta" cols="40" rows="4"></textarea>
+                            <textarea class="papreguntacole" name="" id="pregunta" cols="40" rows="4"></textarea>
                         </div>
+                        <form action="procesar_datos.php" method="post">
+                            <center><label for="condiciones">Acepto los <a
+                                        href="../pdfsrecursos/TERMINOS Y CONDICIONES.pdf">términos y
+                                        condiciones</a></label><input type="checkbox" name="condiciones" /></center>
+                        </form><br>
                         <div class="mb-3">
                             <button class="buttonrmrd" id="enviarwasa" type="button">Enviar</button>
                         </div>
@@ -672,12 +679,23 @@
         let nombres = document.querySelector("#nombres").value;
         let correo = document.querySelector("#correo").value;
         let pregunta = document.querySelector("#pregunta").value;
-        let url = "https://api.whatsapp.com/send?phone=593992648069&text=Nombres: %0A" + nombres + "%0A%0ACorreo: %0A" +
-            correo + "%0A%0APregunta: %0A" + pregunta;
-        window.open(url);
+        let condiciones = document.querySelector('input[name="condiciones"]:checked');
+
+        if (condiciones !== null) {
+            let url = "https://api.whatsapp.com/send?phone=593992648069&text=Nombres: %0A" + nombres +
+                "%0A%0ACorreo: %0A" +
+                correo + "%0A%0APregunta: %0A" + pregunta;
+            window.open(url);
+        } else {
+            alert("Por favor, acepte los términos y condiciones antes de enviar.");
+        }
     }
     </script>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+</script>
 <footer>
     <iframe src="../piedepag/footer.php" frameborder="0"></iframe>
 </footer>

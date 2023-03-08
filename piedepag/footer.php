@@ -39,7 +39,7 @@
         <p>"Confía en el Señor de todo corazón, y no en tu propia inteligencia" Proverbios 3:5</p>
       </div>
       <div>
-        <h3>Detalles de Contacto</h3>
+        <h3 class="centrepie">Detalles &nbsp; de</h3>
         <br>
         <div>
           <img class="mapPP77xd" src="../contactanos/img/map (1).png" alt=""><p> De los Rosales N46-123 y Madroños, sector El Inca</p>
@@ -48,7 +48,7 @@
         </div>
       </div>
       <div>
-        <h3>Correo</h3>
+        <h3>Contacto</h3>
         <br>
         <img class="mapPP77xd" src="../contactanos/img/gmail.png" alt="" ><p> info@iecaaa.com </p>
         <img class="mapPP72xd" src="../img/motor-de-busqueda-web.png" alt="" ><p> www.iecaaa.com </p>

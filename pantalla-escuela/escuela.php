@@ -187,7 +187,7 @@
                             <button class="button collapsed contactoprueba1" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                                <p style="margin-left:40px; margin-top: 10px;"> Asimila</p><img
+                                <p style="margin-left:40px; margin-top: 10px;"> Asimila <img class="pariconNE2" src="../img/ICONOS/flecha.png" alt=""></p><img
                                     src="../img/ICONOS/1.1.png" alt="" class="contactoimgmeto1">
                             </button>
                         </h2>
@@ -211,7 +211,7 @@
                             <button class="button collapsed contactoprueba2" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
-                                <p style="margin-left:40px; margin-top: 10px;"> Aprende</p><img
+                                <p style="margin-left:40px; margin-top: 10px;"> Aprende <img class="pariconNE" src="../img/ICONOS/flecha.png" alt=""></p><img
                                     src="../img/ICONOS/2.1.png" alt="" class="contactoimgmeto2">
                             </button>
                         </h2>
@@ -236,7 +236,7 @@
                             <button class="button collapsed contactoprueba3" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
-                                <p style="margin-left:40px; margin-top: 10px;"> Aplica </p><img
+                                <p style="margin-left:40px; margin-top: 10px;"> Aplica <img class="pariconNE2" src="../img/ICONOS/flecha.png" alt=""></p><img
                                     src="../img/ICONOS/3.1.png" alt="" class="contactoimgmeto3">
                             </button>
                         </h2>
@@ -253,7 +253,7 @@
     </div>
     <div class="lincortxd">
         <hr class="linearmrdxd">
-        <h4 style="color: #FF0000;">100% Garantizado</h4>
+        <h4 style="color: #FF0000;">100% Práctico, Garantizado y Personalizado</h4>
     </div>
     <br>
     <center>
@@ -397,7 +397,7 @@
     <!--Video y botones-->
     <div class="gar">
         <h2>CLASES PERSONALIZADAS</h2>
-        <h2>100% GARANTIZADO, 16 AÑOS DE EXPERIENCIA</h2>
+        <h2>100% PRÁCTICO, GARANTIZADO Y PERSONALIZADO, 16 AÑOS DE EXPERIENCIA</h2>
     </div>
 
     <center>
@@ -529,7 +529,7 @@
     <br>
     <p style="color:#1DA1F2; font-size: 30px; text-align: center;">NIVÉLATE, APRENDE Y APRUEBA SIN PROBLEMAS TODAS TUS
         MATERIAS</p>
-    <p style="color:#1DA1F2; font-size: 20px;text-align: center;">100% GARANTIZADO - PERSONALIZADO </p>
+    <p style="color:#1DA1F2; font-size: 20px;text-align: center;">100% PRÁCTICO - GARANTIZADO - PERSONALIZADO </p>
     <p style="color:#1DA1F2; font-size: 20px; text-align: center;">16 AÑOS DE EXPERIENCIA</p>
     <h4 style="color:#FF0000; text-align: center;">Contáctenos para una asesoría profesional:</h4>
     <h4 style=" text-align: center;">0992648069</h4><img class="whats11"
@@ -547,18 +547,23 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <label for="" class="form label">Nombres:</label>
-                        <input type="text" name="" id="nombres" class="form control" placeholder="Nombre"
+                        <input type="text" name="" id="nombres" class="form control pacuadrodeEscu" placeholder="Nombre"
                             aria-describedby="helId">
                     </div>
                     <div class="mb-3">
                         <label for="" class="form label">Tu correo:</label>
-                        <input type="mail" name="" id="correo" class="form control" placeholder="@hotmail.com"
+                        <input type="mail" name="" id="correo" class="form control pacuadrodeEscu2" placeholder="@hotmail.com"
                             aria-describedby="helId">
                     </div>
                     <div class="mb-3">
                         <label for="" class="form label">Pregunta:</label>
-                        <textarea name="" id="pregunta" cols="40" rows="4"></textarea>
+                        <textarea class="papreguntaescu" name="" id="pregunta" cols="40" rows="4"></textarea>
                     </div>
+                    <form action="procesar_datos.php" method="post">
+                            <center><label for="condiciones">Acepto los <a
+                                        href="../pdfsrecursos/TERMINOS Y CONDICIONES.pdf">términos y
+                                        condiciones</a></label><input type="checkbox" name="condiciones" /></center>
+                    </form><br>
                     <div class="mb-3">
                         <button class="buttonrmrdes" id="enviarwasa" type="button">Enviar</button>
                     </div>
@@ -582,9 +587,16 @@
         let nombres = document.querySelector("#nombres").value;
         let correo = document.querySelector("#correo").value;
         let pregunta = document.querySelector("#pregunta").value;
-        let url = "https://api.whatsapp.com/send?phone=593992648069&text=Nombres: %0A" + nombres + "%0A%0ACorreo: %0A" +
-            correo + "%0A%0APregunta: %0A" + pregunta;
-        window.open(url);
+        let condiciones = document.querySelector('input[name="condiciones"]:checked');
+
+        if (condiciones !== null) {
+            let url = "https://api.whatsapp.com/send?phone=593992648069&text=Nombres: %0A" + nombres +
+                "%0A%0ACorreo: %0A" +
+                correo + "%0A%0APregunta: %0A" + pregunta;
+            window.open(url);
+        } else {
+            alert("Por favor, acepte los términos y condiciones antes de enviar.");
+        }
     }
     </script>
 </body>

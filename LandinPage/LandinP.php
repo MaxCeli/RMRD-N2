@@ -12,12 +12,8 @@
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/23209197.js"></script>
     <!-- End of HubSpot Embed Code -->
-    <!-- reCAPCHAT -->
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lcflc8kAAAAAHrM1lGoltbezA___osDzIQzjehX">
-    </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../procesarDatos.php">
 </head>
 
 <body>
@@ -209,14 +205,14 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon moverflecha" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon moverflecha2" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -321,7 +317,7 @@
                             Cubrir vacíos acádemicos</p>
                         <button class="button collapsed pruebA1" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            <p style="margin-left:40px; margin-top: 10px;">Asimila</p>
+                            <p style="margin-left:40px; margin-top: 10px;"> Asimila <img class="pariconLP" src="../img/ICONOS/flecha.png" alt=""></p>
                             <img src="../img/ICONOS/1.1.png" alt="" class="imgAcord1">
                         </button>
                     </h2>
@@ -342,7 +338,7 @@
                             <button class="button collapsed pruebA2" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                 aria-controls="flush-collapseTwo">
-                                <p style="margin-left:40px; margin-top: 10px;"> Aprende</p>
+                                <p style="margin-left:40px; margin-top: 10px;"> Aprende <img class="pariconLP" src="../img/ICONOS/flecha.png" alt=""></p>
                                 <img src="../img/ICONOS/2.1.png" alt="" class=" imgAcord2">
                             </button>
                         </h2>
@@ -366,7 +362,7 @@
                                 <button class="button collapsed pruebA3" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    <p style="margin-left:40px; margin-top: 10px;"> Aplica </p>
+                                    <p style="margin-left:40px; margin-top: 10px;"> Aplica <img class="pariconLP" src="../img/ICONOS/flecha.png" alt=""></p>
                                     <img src="../img/ICONOS/3.1.png" alt="" class=" imgAcord3">
                                 </button>
                             </h2>
@@ -518,10 +514,38 @@
         </div>
     </center>
     <br>
-    <!--video 2-->
-    <center> <video controls autoplay loop muted class="videoLP1">
-            <source src="../img/VIDEO 29-9-2022/29-9-2022 (1).mp4" type="video/mp4">
-        </video></center>
+    <!-- Carrusel de Testimonios -->
+    <center>
+        <div id="carouselExampleInterval" class="carousel carousel-dark slide videoLP1" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <iframe class="pacontrols" src="https://www.youtube.com/embed/aLwfQTfAoOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <iframe class="pacontrols" src="https://www.youtube.com/embed/aLwfQTfAoOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe class="pacontrols" src="https://www.youtube.com/embed/aLwfQTfAoOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev" aria-hidden="true">
+                    <h5 class="moverbotonLP">
+                        <font color="#000000"><b> Anterior </b></font>
+                    </h5>
+                </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next" aria-hidden="true">
+                    <h5 class="moverbotonLP2">
+                        <font color="#000000"><b> Siguiente </b></font>
+                    </h5>
+                </span>
+            </button>
+        </div>
+    </center>
 
     <br>
     <!--botones-->
@@ -544,7 +568,7 @@
     <div class="Garan100">
         <p>Nuestros resultados son evidentes</p>
     </div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <center><img src="../img/FOTOS IECAAA/fotos inicio/1.jpeg" class="d-block w-90" style="height:500px;"
@@ -605,13 +629,19 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev" aria-hidden="true">
+                <h4 class="moverbotonLP">
+                    <font color="#000000"><b> Anterior </b></font>
+                </h4>
+            </span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next" aria-hidden="true">
+                <h4 class="moverbotonLP2">
+                    <font color="#000000"><b> Siguiente </b></font>
+                </h4>
+            </span>
         </button>
     </div>
     <!--final-->
@@ -619,7 +649,7 @@
     <div>
         <p style="color:#1DA1F2; font-size: 30px; text-align: center;">NIVÉLATE, APRENDE Y APRUEBA SIN PROBLEMAS TODAS
             TUS MATERIAS</p>
-        <p style="color:#1DA1F2; font-size: 20px;text-align: center;">100% GARANTIZADO - PERSONALIZADO </p>
+        <p style="color:#1DA1F2; font-size: 20px;text-align: center;">100% PRÁCTICO - GARANTIZADO - PERSONALIZADO </p>
         <p style="color:#1DA1F2; font-size: 20px; text-align: center;">16 AÑOS DE EXPERIENCIA</p>
         <h4 style="color:#FF0000; text-align: center;">Contáctenos para una asesoría profesional:</h4>
         <h4 style=" text-align: center;">0992648069</h4><img class="whats11" src="../img/Imagenes LP/005-whatsapp.png"
@@ -637,21 +667,21 @@
                 <div class="card-body">
                     <div class="mb-3">
                         <label for="" class="form label">Nombres:</label>
-                        <input type="text" name="nombre" id="nombres" class="form control" placeholder="Nombre"
+                        <input type="text" name="nombre" id="nombres" class="form control pacuadro" placeholder="Nombre"
                             aria-describedby="helId">
                     </div>
                     <div class="mb-3">
                         <label for="" class="form label">Tu correo:</label>
-                        <input type="mail" name="correo" id="correo" class="form control" placeholder="@hotmail.com"
-                            aria-describedby="helId">
+                        <input type="mail" name="correo" id="correo" class="form control pacuadro2"
+                            placeholder="@hotmail.com" aria-describedby="helId">
                     </div>
                     <div class="mb-3">
                         <label for="" class="form label">Pregunta:</label>
-                        <textarea name="pregunta" id="pregunta" cols="40" rows="4"></textarea>
+                        <textarea class="papregunta" name="pregunta" id="pregunta" cols="40" rows="4"></textarea>
                     </div>
                     <form action="procesar_datos.php" method="post">
                         <center><label for="condiciones">Acepto los <a
-                                    href="../pdfsrecursos/Terminos_Condiciones.pdf">términos y
+                                    href="../pdfsrecursos/TERMINOS Y CONDICIONES.pdf">términos y
                                     condiciones</a></label><input type="checkbox" name="condiciones" /></center>
                     </form><br>
                     <button class="buttonT_Ermrd" id="enviarwasa" type="button">Enviar</button>
@@ -685,18 +715,16 @@
         let nombres = document.querySelector("#nombres").value;
         let correo = document.querySelector("#correo").value;
         let pregunta = document.querySelector("#pregunta").value;
+        let condiciones = document.querySelector('input[name="condiciones"]:checked');
 
-        // verifica si el reCAPTCHA se completó correctamente
-        grecaptcha.ready(function() {
-            grecaptcha.execute('ROBAYO MARTINEZ ROMULO DAVID', {
-                action: 'submit'
-            }).then(function(token) {
-                let url = "https://api.whatsapp.com/send?phone=593992648069&text=Nombres: %0A" +
-                    nombres + "%0A%0ACorreo: %0A" +
-                    correo + "%0A%0APregunta: %0A" + pregunta + "%0A%0AToken: %0A" + token;
-                window.open(url);
-            });
-        });
+        if (condiciones !== null) {
+            let url = "https://api.whatsapp.com/send?phone=593992648069&text=Nombres: %0A" + nombres +
+                "%0A%0ACorreo: %0A" +
+                correo + "%0A%0APregunta: %0A" + pregunta;
+            window.open(url);
+        } else {
+            alert("Por favor, acepte los términos y condiciones antes de enviar.");
+        }
     }
     </script>
 </body>

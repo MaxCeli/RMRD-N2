@@ -65,6 +65,18 @@ body{
   justify-content: center;
 }
 
+@media screen and (min-width: 481px) and (max-width: 959px){
+  .moverflecha, .moverflecha2{
+    margin-top: -300%;
+  }
+}
+
+@media (max-width: 480px){
+  .moverflecha, .moverflecha2{
+    margin-top: -500%;
+  }
+}
+
 /* Título celeste */
 .tituloRecu{
   background: #1DA1F2;
@@ -78,6 +90,7 @@ body{
   border-radius: 20px;
   color: white;
 }
+
 /* Video y bomba */
 .recursos1{
   display: flex;
@@ -206,9 +219,12 @@ body{
   border: 2px solid #ff0000;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.499);
 }
-/* Video */
+/* Carrusel de Testimonios */
 .videoLP1{
-  width: 50%;
+  width: 70%;
+}
+.pacontrols{
+  width: 70%;
 }
 @media screen and (min-width: 481px) and (max-width: 959px) {
   .videoLP1{
@@ -217,8 +233,9 @@ body{
 }
 @media (max-width: 450px){
     .videoLP1{
-      width: 80%;
+      width: 100%;
     }
+    
 }
 /* Los botones Azules */
 .botonesLP1{
@@ -297,6 +314,11 @@ body{
   padding: 40px;
   margin: auto 100px;
 }
+.letrasxd4{
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+}
 .pruebA1{
   background: #1DA1F2;
   font-family: Poppins;
@@ -325,6 +347,11 @@ body{
   border-radius: 60%;
   width: 20%;
   margin-top: -19px;
+}
+.pariconLP{
+  display: flex;
+  margin-left: -18%;
+  margin-top: -25px;
 }
 .pruebA2{
   background: #ff0000;
@@ -390,6 +417,7 @@ body{
   width: 350px;
   margin-right: 150px;
 }
+
 @media screen and (min-width: 481px) and (max-width: 959px) {
   .imagenLP{
     margin: 0 auto;
@@ -415,6 +443,10 @@ body{
   }
 }
 @media screen and (max-width: 480px) {
+  .letrasxd4{
+    font-size: 16px;
+    text-align: center;
+  }
   .imagenLP{
   flex-direction: column;
   margin-left: 20px;
@@ -423,8 +455,8 @@ body{
   .contMeto{
   flex-direction: column;
   padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 20px;
   }
   .imgAcord1, .imgAcord2, .imgAcord3 {
@@ -457,6 +489,12 @@ body{
   margin: 0 auto;
   border-radius: 15px;
 }
+.moverbotonLP{
+  margin-left: 500%;
+}
+.moverbotonLP2{
+  margin-left: -500%;
+}
 @media (min-width: 481px) and (max-width: 959px) {
   .asegura{
     height: auto;
@@ -482,6 +520,12 @@ body{
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.493);
 }
 @media screen and (max-width: 480px) {
+  .moverbotonLP{
+    margin-left: 800%;
+  }
+  .moverbotonLP2{
+    margin-left: -1000%;
+  }
   .asegura {
     font-size: 20px;
     height: auto;
@@ -675,9 +719,9 @@ body{
   display: block;
   position:absolute;
   left: 18.5cm;
-  width: 500px;
-  height: 330px;
-  margin-top: 1.2%;
+  width: 550px;
+  height: 380px;
+  margin-top: 1.1%;
 }
 /* Preguntas frecuentes */
 .formulario {
@@ -699,8 +743,14 @@ body{
   color: #fff;
   background: #1DA1F2;
 }
-.buttonT_Ermrd{
+.buttonT_Ermrd, .papregunta{
   width: 98%;
+}
+.pacuadro{
+  width: 75%;
+}
+.pacuadro2{
+  width: 74%;
 }
 @media screen and (min-width: 481px) and (max-width: 959px) {
   .pacellsep{
@@ -789,18 +839,6 @@ footer{
     height: 50 0px;
     margin-top: auto;
 }
-
-
-  
-
-  
-  
-
-  .letrasxd4{
-    font-family: Poppins;
-    font-size: 20px;
-    text-align: justify;
-  }
   
 .videoLP2{
   width: 100%;

@@ -142,6 +142,10 @@ p{
   display: block;
 }
 
+.centrepie{
+  margin-left: 55%;
+}
+
 .mapPP72xd{
   width: 30px;
   height: 30px;
@@ -164,6 +168,9 @@ p{
   .row2{
     width: 45%;
     margin-left: 55%;
+  }
+  .centrepie{
+    margin-left: -5.8%;
   }
 }
 @media (max-width: 480px){
@@ -283,5 +290,8 @@ hr{
 @media (max-width: 480px){
   .derechos1{
     text-align: center;
+  }
+  .centrepie{
+    margin-left: 16.3%;
   }
 }

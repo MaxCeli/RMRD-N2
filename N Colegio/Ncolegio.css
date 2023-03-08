@@ -143,7 +143,7 @@ html, body {
 
 .letrasdemeto{
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
 }
 .img1demeto1{
@@ -176,6 +176,16 @@ html, body {
     width: 25%;
     margin-top: -17px;
 }
+.pariconNC{
+    display: flex;
+    margin-left: -18%;
+    margin-top: -25px;
+}
+.pariconNC2{
+    display: flex;
+    margin-left: -22%;
+    margin-top: -25px;
+}
 /* Para tablet */
 @media screen and (min-width: 481px) and (max-width: 959px) {
     .pacelldecole{
@@ -205,6 +215,10 @@ html, body {
 }
 /* Para celular */
 @media screen and (max-width: 480px) {
+    .letrasdemeto{
+        font-size: 16px;
+        text-align: center;
+    }
     .containerpametodologia{
         width: 80%;
         margin: 20px auto;
@@ -315,6 +329,9 @@ html, body {
 @media screen and (min-width: 220px) and (max-width: 959px) {
     .videoColeEG{
         width: 80%;
+    }
+    .partirvideo h2{
+        font-size: 18px;
     }
 }
 
@@ -490,7 +507,7 @@ margin-bottom: 3%;
 
 /* Sellos colegios y las modalidades */
 .titudesellodecoles{
-    margin-left: 110px;
+    margin-left: 160px;
 }
 @media (max-width: 480px) {
     .titudesellodecoles{
@@ -500,11 +517,17 @@ margin-bottom: 3%;
 
 .filadecole1{
     padding: 30px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+@media (max-width: 480px) {
+    .filadecole1{
+        width: 100%;
+        margin: 0;
+    }
 }
 .filadecole1 .cole11:hover{
     width: 240px;
@@ -514,30 +537,15 @@ margin-bottom: 3%;
     width: 170px;
     height: 170px;
 }
-
-.filacole2{
-    padding: 30px;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-@media (max-width: 480px) {
-    .filadecole1, .filacole2{
-        width: 100%;
-        margin: 0;
-    }
-}
-.filacole2 .cole2_11:hover{
+.filadecole1 .cole2_11:hover{
     width: 170px;
     height: 170px;
 }
-.filacole2 .cole2_11casoespe:hover{
+.filadecole1 .cole2_11casoespe:hover{
     width: 150;
     height: 200px;
 }
-.filacole2 .cole2_22:hover{
+.filadecole1 .cole2_22:hover{
     width: 240px;
     height: 170px;
 }
@@ -561,19 +569,20 @@ margin-bottom: 3%;
 }
 
 /* Lo de Horario, Programas y Inicio */
-.containerrmrd{
-    width: 100%;
+.containerrmrdcole{
+    padding: 30px;
 }
+
 @media (min-width: 960px) {
-    .containerrmrd{
+    .containerrmrdcole{
         padding: 70px;
     }
 }
-.paracentrar2{
+.paracentrar2cole{
     text-align: center;
 }
 @media screen and (max-width: 480px) {
-    .xdsolom h5{
+    .xdsolomcole h5{
         width: 215%;
     }
 }
@@ -648,9 +657,9 @@ margin-bottom: 3%;
     display: block;
     position:absolute;
     left: 18.5cm;
-    width: 500px;
-    height: 330px;
-    margin-top: 2.3%;
+    width: 550px;
+    height: 380px;
+    margin-top: 2.1%;
 }
 
 .formulariormrd24 {
@@ -673,7 +682,13 @@ margin-bottom: 3%;
     color: #fff;
     background: #1DA1F2;
 }
-.buttonrmrd{
+.pacuadrocole{
+    width: 75%;
+}
+.pacuadrocole2{
+    width: 74%;
+}
+.buttonrmrd, .papreguntacole{
     width: 98%;
 }
 /* Para tablet */

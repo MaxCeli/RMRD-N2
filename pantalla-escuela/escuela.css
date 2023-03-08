@@ -173,6 +173,16 @@ html, body {
   max-width: 8500px;
   margin-top: -17px;
 }
+.pariconNE{
+  display: flex;
+  margin-left: -18%;
+  margin-top: -25px;
+}
+.pariconNE2{
+  display: flex;
+  margin-left: -22%;
+  margin-top: -25px;
+}
 /* Para tablet */
 @media screen and (min-width: 481px) and (max-width: 959px){
   .pacelldeEscu{
@@ -202,6 +212,10 @@ html, body {
 }
 /* Para celular */
 @media screen and (max-width: 480px) {
+  .letrascontactos{
+    font-size: 16px;
+    text-align: center;
+  }
   .contactosxd77{
       width: 80%;
       margin: 20px auto;
@@ -232,6 +246,14 @@ html, body {
   border-top: 3px solid #FF0000;
   border: 2px solid #FF0000;
   margin: 20px auto;
+}
+@media (max-width:480px){
+  .linearmrdxd {
+    width: 95%;
+  }
+  .lincortxd h4{
+    font-size: 18px;
+  }
 }
 
 .frasermrdxd {
@@ -322,6 +344,9 @@ html, body {
 @media (max-width: 480px){
   .videoxd{
       width: 80%;
+  }
+  .gar h2{
+    font-size: 18px;
   }
 }
 
@@ -509,6 +534,9 @@ html, body {
   justify-content: space-between;
 }
 @media (max-width:480px){
+  .fila1materias1{
+    min-width: 100%;
+  }
   .colegios1xd, .colegios2xd{
     width: 100%;
     margin: 0;
@@ -640,14 +668,20 @@ html, body {
   display: block;
   position: absolute;
   left: 18.5cm;
-  width: 500px;
-  height: 330px;
-  margin-top: 2.3%;
+  width: 550px;
+  height: 380px;
+  margin-top: 2.1%;
 }
 .formulariormrd24 {
   background: linear-gradient(#005156, #005156);
 }
-.buttonrmrdes {
+.pacuadrodeEscu{
+  width: 75%;
+}
+.pacuadrodeEscu2{
+  width: 74%;
+}
+.buttonrmrdes, .papreguntaescu {
   width: 98%;
 }
 
