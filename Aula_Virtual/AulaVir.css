@@ -30,10 +30,11 @@ border-radius: 20px;
     margin: auto;
     display: block;
     position:absolute;
-    left: 18.5cm;
-    width: 500px;
-    height: 330px;
+    left: 20.5cm;
+    width: 550px;
+    height: 380px;
     margin-top: 1.2%;
+    
   }
   /* Metodoligía */
   .metodologíadecole{
@@ -107,9 +108,9 @@ border-radius: 20px;
     border: 2px solid #25D366;
 }
 
-.letrasdemeto{
+.letrasdemeto2{
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 19px;
     text-align: justify;
 }
 .img1demeto1{
@@ -157,6 +158,20 @@ border-radius: 20px;
 .formulario77{
     background: linear-gradient(#005156, #005156);
 }
+.buttonT_Ermrd, .papregunta{
+    width: 98%;
+  }
+  .pacuadro{
+    width: 75%;
+  }
+  .pacuadro2{
+  width:74%;
+  }
+.pariconAV{
+    display: flex;
+    margin-left: -18%;
+    margin-top: -25px;
+}
 
 @media (max-width: 480px) {
     .final22 {
@@ -180,6 +195,10 @@ border-radius: 20px;
     }
     .pacelldeaula{
         margin: 80px 0px;
+    }
+    .letrasdemeto2{
+        font-size: 16px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 480px) {

@@ -164,9 +164,9 @@
     margin: auto;
     display: block;
     position: absolute;
-    left: 18cm;
-    width: 500px;
-    height: 330px;
+    left: 20.5cm;
+    width: 550px;
+    height: 380px;
     margin-top: 1.2%;
 }
 
@@ -284,7 +284,7 @@
     border: 2px solid #25D366;
 }
 
-.letrasdemeto {
+.letrasdemeto4 {
     font-family: Poppins;
     font-size: 20px;
     text-align: justify;
@@ -399,6 +399,10 @@
     background: #fff;
     border: 2px solid #25D366;
 }
+.letrasdemeto4{
+    font-size: 16px;
+    text-align: center;
+}
 
 @media (max-width: 480px) {
     .pacelldeclased {
@@ -426,6 +430,7 @@
         position: static;
         width: 100%;
         margin: 20px auto;
+       
     }
 
     .metodologíadecole {
@@ -453,6 +458,20 @@
     .tituni_dem {
         width: 95%;
     }
+}
+.buttonT_Ermrd, .papregunta{
+    width: 98%;
+  }
+  .pacuadro{
+    width: 75%;
+  }
+  .pacuadro2{
+  width:74%;
+  }
+.pariconCD{
+    display: flex;
+    margin-left: -18%;
+    margin-top: -25px;
 }
 
 @media screen and (max-width: 480px) {
